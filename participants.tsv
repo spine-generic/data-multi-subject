@@ -1,0 +1,255 @@
+participant_id	sex	age	date_of_scan	institution_id	institution	manufacturer	manufacturers_model_name	receive_coil_name	software_versions	researcher
+sub-amu01	-	-	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu02	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu03	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu04	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu05	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-balgrist01	F	31	1987-11-30	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist02	F	22	1996-12-07	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist03	F	23	1995-03-12	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist04	M	28	1990-06-14	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist05	M	27	1992-02-17	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist06	M	23	1995-11-26	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-barcelona01	M	36	2018-10-16	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona02	M	38	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona03	M	39	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona04	F	39	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona05	F	36	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona06	F	25	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-beijingGE01	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE02	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE03	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE04	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingPrisma01	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma02	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_65	syngo_MR_E12	Yazhuo Kong
+sub-beijingPrisma03	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_66	syngo_MR_E13	Yazhuo Kong
+sub-beijingPrisma04	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_67	syngo_MR_E14	Yazhuo Kong
+sub-beijingPrisma05	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_68	syngo_MR_E15	Yazhuo Kong
+sub-beijingVerio01	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
+sub-beijingVerio02	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
+sub-beijingVerio03	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
+sub-beijingVerio04	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B22	Yazhuo Kong
+sub-brnoCeitec01	M	32	2019-02-04	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec02	F	27	2019-03-02	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec03	M	28	2019-03-12	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec04	F	29	2019-03-13	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec05	F	42	2019-03-15	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec06	M	28	2019-03-15	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoUhb01	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb02	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb03	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb04	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb05	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb06	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb07	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb08	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-cardiff01	M	31	2019-02-01	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff02	F	34	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff03	M	33	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff04	F	31	2019-03-12	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff05	F	30	2019-03-14	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff06	M	40	2019-03-20	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cmrra01	M	24	2019-02-27	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrra02	M	27	2019-03-01	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrra03	F	28	2019-03-08	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrra04	F	22	2019-03-18	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrra05	F	24	2019-03-28	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrra06	M	22	2019-04-02	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb01	F	23	2019-01-15	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb02	M	23	2019-02-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb03	M	24	2019-03-01	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb04	M	21	2019-03-12	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb05	M	30	2019-03-13	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb06	F	38	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb07	F	20	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-dresden01	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-dresden02	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-geneva01	M	29	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva02	M	36	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva03	M	27	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva04	F	29	2019-01-30	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva05	F	30	2019-02-01	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva06	F	33	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-hamburg01	M	28	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg02	F	30	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg03	M	21	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg04	F	33	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg05	F	26	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg06	M	38	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-juntendo750w01	F	28	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w02	F	27	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w03	M	24	2019-02-06	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w04	M	23	2019-02-08	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w05	F	26	2019-02-04	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w06	M	23	2019-02-05	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-mgh01	F	28	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh02	F	33	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh03	F	43	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh04	M	28	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh05	M	31	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh06	M	36	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-milan01	M	25	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan02	F	35	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan03	F	28	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan04	F	27	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan05	M	28	2019-01-09	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan06	M	35	2019-01-10	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan07	M	31	2019-01-15	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-mniPilot1	F	30	2019-02-26	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS01	M	37	2019-02-26	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS02	M	29	2019-02-28	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS03	M	29	2019-03-04	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS04	M	33	2019-03-04	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS05	M	29	2019-03-05	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS06	M	33	2019-03-05	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS07	F	40	2019-03-07	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS08	F	28	2019-03-12	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mniS09	F	42	2019-03-12	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
+sub-mountSinai01	M	40	2019-03-12	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mountSinai02	M	26	2019-03-12	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mountSinai03	M	37	2019-03-05	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mountSinai04	M	37	2019-03-25	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mountSinai05	M	31	2019-03-25	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mountSinai06	M	31	2019-03-25	mountSinai	"BMEII (formely TMII), Icahn School of Medicine at Mount Sinai, New York, NY USA"	Siemens	Skyra	Spine_32	VE11C	"J. Xu, A. Seifert, J-W. Kim"
+sub-mpicbs01	F	29	2019-03-26	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-mpicbs02	F	30	2019-04-04	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-mpicbs03	M	26	2019-04-04	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-mpicbs05	F	20	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-mpicbs06	M	22	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-mpicbs07	M	25	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
+sub-nottwil01	F	25	2018-12-19	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil02	M	23	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil03	M	38	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil04	F	25	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil05	F	28	2019-01-08	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil06	M	36	2019-01-10	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nwu01	M	24	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu02	F	26	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu03	F	24	2019-02-21	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu04	M	25	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu05	M	27	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu06	F	24	2019-02-27	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-oxfordFmrib01	M	26	2019-02-04	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib02	M	22	2019-02-04	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib03	M	24	2019-02-13	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib04	M	42	2019-02-13	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib05	M	25	2019-02-20	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib06	F	25	2019-02-20	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib07	M	31	2019-02-27	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib08	F	28	2019-02-27	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib09	M	32	2019-03-06	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib10	F	26	2019-03-13	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordFmrib11	F	36	2019-03-13	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordOhba01	F	25	2019-03-14	oxfordOhba	"Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordOhba02	M	31	2019-03-15	oxfordOhba	"Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordOhba03	M	25	2019-03-15	oxfordOhba	"Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordOhba04	M	42	2019-03-15	oxfordOhba	"Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-oxfordOhba05	M	22	2019-03-15	oxfordOhba	"Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
+sub-pavia01	F	25	2019-06-14	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-pavia02	F	25	2019-06-19	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-pavia03	M	28	2019-06-19	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-pavia04	F	25	2019-06-26	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-pavia05	M	38	2019-06-26	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-pavia06	M	29	2019-07-03	pavia	"Neuroradiology Unit, IRCCS Mondino Foundation"	Siemens	Skyra	HeadNeck_20	syngo_MR_D13	"G. Savini, G. Germani, A. Pichiecchio"
+sub-perform01	F	23	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-perform02	M	27	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-perform03	F	28	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-perform04	M	30	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-perform05	F	28	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-perform06	M	27	2018-01-30	perform	"Concordia University, Perform Center, Montreal, Canada"	GE	MR750	-	27_LX_MR_Software_release:DV25.1_R02_1649.a	"J. Cohen-Adad, H. Benali"
+sub-queensland01	M	31	2018-12-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-queensland02	F	24	2018-01-22	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-queensland03	M	25	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-queensland04	F	25	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-queensland05	F	27	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-queensland06	M	44	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
+sub-sapienza01	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sapienza02	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sapienza03	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sapienza04	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sapienza05	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sapienza06	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-sherbrooke01	M	25	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke02	F	32	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke03	M	36	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke04	F	29	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke05	F	28	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke06	M	24	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-sherbrooke07	M	35	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
+sub-stanford01	M	33	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford02	F	39	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford03	M	36	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford04	F	34	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford05	M	19	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford06	F	20	2018-02-27	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-strasbourg01	M	40	2019-03-14	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-strasbourg02	M	52	2019-03-14	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-strasbourg03	F	41	2019-04-03	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-strasbourg04	F	50	2019-04-03	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-strasbourg05	M	33	2019-04-08	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-strasbourg06	F	28	2019-04-10	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
+sub-tehranS01	F	32	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS02	M	33	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS03	F	30	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS04	F	33	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS05	M	23	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS06	M	30	2019-02-16	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tokyo750w01	M	25	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w02	F	32	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w03	M	36	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w04	F	29	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w05	F	28	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w06	M	24	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyo750w07	M	35	2019-06-21	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia01	M	25	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia02	F	32	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia03	M	36	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia04	F	29	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia05	F	28	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia06	M	24	2019-06-13	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoIngenia07	M	35	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	-	5.3.1_5.3.1.1	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra01	M	25	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra02	F	32	2019-04-05	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra03	M	36	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra04	F	29	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra05	F	28	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra06	M	24	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-tokyoSkyra07	M	35	2019-06-13	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
+sub-ubc01	F	23	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc02	M	25	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc03	F	24	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc04	F	25	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc05	M	24	2019-06-07	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc06	M	23	2019-06-17	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ucl01	F	34	2018-11-21	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl02	M	31	2018-11-21	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl03	M	30	2018-11-21	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl04	F	37	2018-11-26	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl05	M	38	2018-11-28	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl06	F	36	2018-11-29	ucl	University College London	Philips	Ingenia-CX	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-unf01	F	24	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf02	M	29	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf03	M	22	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf04	M	31	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf05	F	23	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf06	F	27	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-unf07	M	21	2019-03-22	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
+sub-vallHebron01	M	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron02	F	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron03	F	-	2019-01-23	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron04	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron05	F	-	2019-01-21	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron06	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron07	M	-	2019-03-04	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vuiisAchieva01	M	28	2019-02-11	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisAchieva02	M	23	2019-02-15	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisAchieva03	M	29	2019-02-25	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisAchieva04	F	24	2019-02-27	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisAchieva05	M	24	2019-03-01	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisAchieva06	M	24	2019-03-01	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia01	F	24	2019-02-18	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia02	F	36	2019-02-20	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia03	F	25	2019-02-20	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia04	F	30	2019-02-20	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia05	M	29	2019-02-25	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
+sub-vuiisIngenia06	M	31	2019-02-26	vuiisIngenia	Vanderbilt University Institute of Imaging Science	Philips	Ingenia	16-ch neurovascular	Release 5.5.0.0	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"

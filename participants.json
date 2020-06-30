@@ -1,0 +1,46 @@
+{
+    "participant_id": {
+        "LongName": "Participant ID",
+        "Description": "Unique ID"
+    },
+    "sex": {
+        "LongName": "Participant gender",
+        "Description": "M or F"
+    },
+    "age": {
+        "LongName": "Participant age",
+        "Description": "yy"
+    },
+    "date_of_scan": {
+        "LongName": "Date of scan",
+        "Description": "yyyy-mm-dd"
+    },
+    "institution_id": {
+        "LongName": "institution_id",
+        "Description": "InstitutionId"
+    },
+    "institution": {
+        "LongName": "InstitutionName",
+        "Description": "InstitutionName"
+    },
+    "manufacturer": {
+        "LongName": "ManufacturerName",
+        "Description": "ManufacturerName"
+    },
+    "manufacturers_model_name": {
+        "LongName": "ManufacturersModelName",
+        "Description": "ManufacturersModelName"
+    },
+    "receive_coil_name": {
+        "LongName": "ReceiveCoilName",
+        "Description": "ReceiveCoilName"
+    },
+    "software_versions": {
+        "LongName": "SoftwareVersions",
+        "Description": "SoftwareVersions"
+    },
+    "researcher": {
+        "LongName": "Researcher",
+        "Description": "Researcher"
+    }
+}
