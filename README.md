@@ -1,4 +1,4 @@
-# Spine Generic Public Database (Single Subject)
+# Spine Generic Public Database (Multi-Subject)
 
 This dataset was acquired using the [spine-generic protocol](http://spinalcordmri.org/protocols)
 on multiple subjects, multiple sites and multiple MRI vendors and models. The list of subjects
