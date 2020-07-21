@@ -36,7 +36,7 @@ git clone https://github.com/spine-generic/data-multi-subject.git
 
 ## Analysis
 
-The instructions to process this dataset are available in the [spine-generic documentation](https://spine-generic.readthedocs.io/en/latest/documentation.html#analysis-pipeline).
+The instructions to process this dataset are available in the [spine-generic documentation](https://spine-generic.readthedocs.io/en/latest/analysis_pipeline.html).
 
 ## Contributing
 
