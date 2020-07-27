@@ -1,4 +1,5 @@
 # Spine Generic Public Database (Multi-Subject)
+[![Build Status](https://travis-ci.com/spine-generic/data-multi-subject.svg?branch=master)](https://travis-ci.com/spine-generic/data-multi-subject)
 
 ## About this dataset
 
