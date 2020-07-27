@@ -1,0 +1,33 @@
+sudo: required
+dist: xenial
+
+language: python
+
+python:
+  - "3.7"
+
+# safelist
+branches:
+  only:
+  - master
+
+# install proper NodeJS for bids-validator 
+before_install:
+  - sudo rm -rf ~/.nvm
+  - curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+  - sudo apt-get install -y nodejs
+  - sudo npm install -g bids-validator
+
+# install spine-generic for acquisition parameters check 
+install:
+  - git clone https://github.com/spine-generic/spine-generic.git code/spine-generic
+  - cd code/spine-generic
+  - pip install -e .
+  - source ~/virtualenv/python3.7/bin/activate
+  - cd ../..
+
+script: 
+  - echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
+  - bids-validator ./
+  - echo -e "\e[1m \e[4m \e[34mChecking acquisition parameters \n"
+  - sg_params_checker -path-in ./  
