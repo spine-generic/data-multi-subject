@@ -1,5 +1,5 @@
 sudo: required
-dist: xenial
+dist: bionic
 
 language: python
 
@@ -11,23 +11,40 @@ branches:
   only:
   - master
 
-# install proper NodeJS for bids-validator 
 before_install:
+  # install spine-generic for acquisition parameters check
+  # TODO: we should probably version-pin this?
+  - pip install spine-generic@git+https://github.com/kousu/spine-generic.git@patch-1
+
+  # use conda's git-annex, because it's the most up to date;
+  # Debian's is very behind, and even neurodebian's is behind
+  # by a year, and is currently incompatible with the format of this repo.
+  - wget -O/tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  - bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -f
+  - . ~/miniconda3/bin/activate # careful! after this we're no longer in Travis's python, we're in conda's!
+  - conda install -y -c conda-forge git-annex
+
+  # install proper NodeJS for bids-validator
   - sudo rm -rf ~/.nvm
   - curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
   - sudo apt-get install -y nodejs
   - sudo npm install -g bids-validator
 
-# install spine-generic for acquisition parameters check 
 install:
-  - git clone https://github.com/spine-generic/spine-generic.git code/spine-generic
-  - cd code/spine-generic
-  - pip install -e .
-  - source ~/virtualenv/python3.7/bin/activate
-  - cd ../..
+  # download the data content
+  - git fetch origin git-annex:git-annex # Travis does a shallow checkout, so it is missing this important branch
+  - git annex init
+  - echo -e "\e[1m \e[4m \e[34mDownloading dataset; this will take a while. \n"
+  # this is -q because git-annex doesn't have a short progress bar like git
+  # and the download log is overwhelming and not interesting and might trip over
+  #    https://docs.travis-ci.com/user/common-build-problems/#log-length-exceeded.
+  # but -q might instead trip over
+  #   https://docs.travis-ci.com/user/common-build-problems/#build-times-out-because-no-output-was-received
+  # so it's a balancing act.
+  - travis_wait 20 git annex get -J 8 -q
 
 script: 
   - echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
   - bids-validator ./
   - echo -e "\e[1m \e[4m \e[34mChecking acquisition parameters \n"
-  - sg_params_checker -path-in ./  
+  - sg_params_checker -path-in ./
