@@ -64,6 +64,18 @@ sub-cmrrb06	F	38	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spi
 sub-cmrrb07	F	20	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-dresden01	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-dresden02	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-fslAchieva01	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva02	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva03	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva04	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva05	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva06	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslPrisma01	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma02	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_65	syngo_MR_E12	Michela Fratini
+sub-fslPrisma03	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_66	syngo_MR_E13	Michela Fratini
+sub-fslPrisma04	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_67	syngo_MR_E14	Michela Fratini
+sub-fslPrisma05	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_68	syngo_MR_E15	Michela Fratini
+sub-fslPrisma06	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_69	syngo_MR_E16	Michela Fratini
 sub-geneva01	M	29	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva02	M	36	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva03	M	27	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
@@ -163,12 +175,6 @@ sub-queensland03	M	25	2019-02-19	queensland	University of Queensland	Siemens	Pri
 sub-queensland04	F	25	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
 sub-queensland05	F	27	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
 sub-queensland06	M	44	2019-02-19	queensland	University of Queensland	Siemens	Prisma	64ch+spine	VE11C	"N. Kurniawan, M. Ruitenberg, M. Barth, N. Atcheson, C. Gros"
-sub-sapienza01	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-sapienza02	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-sapienza03	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-sapienza04	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-sapienza05	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-sapienza06	-	-	-	sapienza	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-sherbrooke01	M	25	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
 sub-sherbrooke02	F	32	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
 sub-sherbrooke03	M	36	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
