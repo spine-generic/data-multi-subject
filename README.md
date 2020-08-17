@@ -19,7 +19,7 @@ The entire dataset is about **10GB**.
 
 ## Download
 
-We are using a tool to manage large datasets alled `git-annex`. To download, dataset, you need to have `git` installed, and also [install `git-annex`](https://git-annex.branchable.com/install/). Then run:
+We are using a tool to manage large datasets alled `git-annex`. To download, dataset, you need to have `git` installed, and also [install `git-annex`](https://git-annex.branchable.com/install/) *at version 8*. Then run:
 
 ~~~
 git clone https://github.com/spine-generic/data-multi-subject &&
