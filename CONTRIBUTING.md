@@ -45,11 +45,19 @@ We haven't yet worked out the best way to support this. See: https://github.com/
 
 `git-annex` changes fairly rapidly. In order to be able to work with this dataset you must have an up to date copy of `git-annex`. If you have problems, first check that you have an up to date version: we've tested with `git-annex` 8.20200617 and newer.
 
-**Particularly** if you are on a Debian system (including Ubuntu, Kubuntu, Mint) there is a good chance you have 6.x, which is not going to work. Please enable backports:
+**Particularly** if you are on a Debian system (including Ubuntu, Kubuntu, Mint) there is a good chance you have 6.x, which is not going to work.
 
-* [Debian](https://backports.debian.org/Instructions/) 
-* [Ubuntu](https://help.ubuntu.com/community/UbuntuBackports#Enabling_Backports)
-* or via [NeuroDebian](https://git-annex.branchable.com/install/#comment-cee9d300b09e3e320ee7128930712d5b)
+On Windows and Linux, we recommend getting it from `conda`. [Install `conda`](https://docs.conda.io/en/latest/miniconda.html) and then run
+
+```
+conda install -c conda-forge git-annex
+```
+
+On macOS, we recommend using `brew`: [Install `brew`](https://brew.sh/) and then run
+
+```
+brew install git-annex
+```
 
 or, failing any of those options, [compile it from source](https://git-annex.branchable.com/install/fromsource/).
 
