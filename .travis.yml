@@ -41,7 +41,7 @@ install:
   # but -q might instead trip over
   #   https://docs.travis-ci.com/user/common-build-problems/#build-times-out-because-no-output-was-received
   # so it's a balancing act.
-  - travis_wait 20 git annex get -J 8 -q
+  - travis_wait 20 git annex get -J 2 -q
 
 script: 
   - echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
