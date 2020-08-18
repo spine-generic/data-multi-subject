@@ -21,10 +21,10 @@ sub-beijingGE02	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_So
 sub-beijingGE03	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE04	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingPrisma01	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
-sub-beijingPrisma02	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_65	syngo_MR_E12	Yazhuo Kong
-sub-beijingPrisma03	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_66	syngo_MR_E13	Yazhuo Kong
-sub-beijingPrisma04	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_67	syngo_MR_E14	Yazhuo Kong
-sub-beijingPrisma05	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_68	syngo_MR_E15	Yazhuo Kong
+sub-beijingPrisma02	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
+sub-beijingPrisma03	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
+sub-beijingPrisma04	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
+sub-beijingPrisma05	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
 sub-beijingVerio01	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
 sub-beijingVerio02	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
 sub-beijingVerio03	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
@@ -43,12 +43,12 @@ sub-brnoUhb05	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiolo
 sub-brnoUhb06	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
 sub-brnoUhb07	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
 sub-brnoUhb08	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-cardiff01	M	31	2019-02-01	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
-sub-cardiff02	F	34	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
-sub-cardiff03	M	33	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
-sub-cardiff04	F	31	2019-03-12	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
-sub-cardiff05	F	30	2019-03-14	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
-sub-cardiff06	M	40	2019-03-20	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	64ch head+neck	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff01	M	31	2019-02-01	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff02	F	34	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff03	M	33	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff04	F	31	2019-03-12	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff05	F	30	2019-03-14	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
+sub-cardiff06	M	40	2019-03-20	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
 sub-cmrra01	M	24	2019-02-27	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrra02	M	27	2019-03-01	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrra03	F	28	2019-03-08	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
@@ -64,18 +64,18 @@ sub-cmrrb06	F	38	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spi
 sub-cmrrb07	F	20	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-dresden01	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-dresden02	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
-sub-fslAchieva01	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva02	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva03	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva04	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva05	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva06	-	-	-	fslAchieva	"Sapienza University, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslPrisma01	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
-sub-fslPrisma02	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_65	syngo_MR_E12	Michela Fratini
-sub-fslPrisma03	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_66	syngo_MR_E13	Michela Fratini
-sub-fslPrisma04	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_67	syngo_MR_E14	Michela Fratini
-sub-fslPrisma05	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_68	syngo_MR_E15	Michela Fratini
-sub-fslPrisma06	-	-	-	fslPrisma	"Sapienza University, Rome, Italy"	Siemens	Prisma	HeadNeck_69	syngo_MR_E16	Michela Fratini
+sub-fslAchieva01	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva02	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva03	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva04	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva05	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva06	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslPrisma01	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma02	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
+sub-fslPrisma03	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
+sub-fslPrisma04	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
+sub-fslPrisma05	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
+sub-fslPrisma06	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
 sub-geneva01	M	29	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva02	M	36	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva03	M	27	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
