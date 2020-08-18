@@ -28,7 +28,7 @@ export AWS_ACCESS_KEY_ID="..." AWS_SECRET_ACCESS_KEY="..."
 7. Publish:
 ```
 git annex sync --content amazon
-git annex sync yourusername
+git annex sync yourusername  # if you cloned this repository and you are not working on a fork, you can omit 'yourusername'
 ```
 8. Go to https://github.com/yourusername/data-multi-subject and click the Pull Request button.
 
