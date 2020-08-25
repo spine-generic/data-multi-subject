@@ -4,3 +4,4 @@
 *_acq-b0_dwi*
 *.md
 *.log
+exclude.yml
