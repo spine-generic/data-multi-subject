@@ -1,9 +1,9 @@
 participant_id	sex	age	date_of_scan	institution_id	institution	manufacturer	manufacturers_model_name	receive_coil_name	software_versions	researcher
-sub-amu01	-	-	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu02	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu03	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu04	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu05	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu01	M	28	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu02	M	28	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu03	F	28	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu04	F	44	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu05	F	39	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-balgrist01	F	31	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist02	F	22	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist03	F	23	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
