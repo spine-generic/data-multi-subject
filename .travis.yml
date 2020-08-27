@@ -42,8 +42,10 @@ install:
   # so it's a balancing act.
   - travis_wait 60 git annex get -J 2 -v
 
-script: 
+script:
   - echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
   - bids-validator ./
   - echo -e "\e[1m \e[4m \e[34mChecking acquisition parameters \n"
   - sg_params_checker -path-in ./
+  - echo -e "\e[1m \e[4m \e[34mChecking data consistency \n"
+  - sg_check_data_consistency -path-in ./
