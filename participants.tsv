@@ -240,13 +240,13 @@ sub-unf04	M	31	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polyt
 sub-unf05	F	23	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf06	F	27	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf07	M	21	2019-03-22	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
-sub-vallHebron01	M	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron02	F	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron03	F	-	2019-01-23	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron04	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron05	F	-	2019-01-21	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron06	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron07	M	-	2019-03-04	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron01	M	24	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron02	F	26	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron03	F	21	2019-01-23	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron04	M	33	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron05	F	29	2019-01-21	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron06	M	25	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron07	M	40	2019-03-04	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
 sub-vuiisAchieva01	M	28	2019-02-11	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
 sub-vuiisAchieva02	M	23	2019-02-15	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
 sub-vuiisAchieva03	M	29	2019-02-25	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
