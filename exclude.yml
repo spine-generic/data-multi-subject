@@ -14,6 +14,7 @@ csa_t2:
 csa_gm:
 - sub-fslAchieva04  # Motion artifact
 - sub-vuiisIngenia04  # Motion artifact
+- sub-vuiisIngenia05  # Motion artifact
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
