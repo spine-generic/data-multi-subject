@@ -9,6 +9,7 @@ csa_t1:
 csa_t2:
 - beijingVerio  # Site did not respect parameters (TR=2, FA=180)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-pavia04  # Motion artifact
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
