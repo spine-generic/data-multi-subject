@@ -1,6 +1,7 @@
 csa_t1:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
+- sub-perform06  # Motion
 csa_t2:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
