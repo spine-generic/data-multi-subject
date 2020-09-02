@@ -1,6 +1,7 @@
 csa_t1:
 - sub-balgrist01  # Motion artifact
 - sub-beijingGE04  # Motion artifact
+- sub-mniS06  # Motion artifact
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-pavia04  # Motion artifact
