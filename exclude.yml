@@ -11,6 +11,8 @@ csa_t2:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-pavia04  # Motion artifact
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
+csa_gm:
+- sub-vuiisIngenia04  # Motion artifact
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
