@@ -30,9 +30,12 @@ mtsat:
 - sub-geneva02  # TODO: check what's going on with this scan
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-tehranS04  # TODO: check what's going on with this scan
+- sub-fslAchieva04  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
+- sub-beijingPrisma01  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
 t1:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-fslAchieva03  # TODO: check what's going on with this scan
-- sub-fslAchieva04  # TODO: check what's going on with this scan
-- sub-fslAchieva05  # TODO: check what's going on with this scan
-- sub-fslAchieva06  # TODO: check what's going on with this scan
+- sub-fslAchieva03  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
+- sub-fslAchieva04  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
+- sub-fslAchieva05  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
+- sub-fslAchieva06  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
+- sub-beijingPrisma01  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
