@@ -39,4 +39,4 @@ The instructions to process this dataset are available in the [spine-generic doc
 
 ## Contributing
 
-If you wish to contribute to this dataset please see [CONTRIBUTING.md](./CONTRIBUTING.md). Thank you for your contribution 🎉 
+If you wish to contribute to this dataset please see [the wiki](https://github.com/spine-generic/spine-generic/wiki/git-annex). Thank you for your contribution 🎉 
