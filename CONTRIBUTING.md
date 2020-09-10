@@ -9,7 +9,7 @@ The process is a little bit unusual because of the existence of `git-annex` and 
 2. Add your fork as a remote:
 ```
 # in your local copy, assuming you already followed the download instructions in README.md
-git add yourusername git@github.com:yourusername/data-multi-subject.git
+git remote add yourusername git@github.com:yourusername/data-multi-subject.git
 git annex sync yourusername
 ```
 3. Start a branch:
