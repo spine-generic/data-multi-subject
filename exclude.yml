@@ -22,10 +22,11 @@ dti_fa:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
 mtr:
+- stanford  # Used different TR
+- fslAchieva  # Used different TR
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- stanford  # Used different TR.
 mtsat:
 - sub-geneva02  # TODO: check what's going on with this scan
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
