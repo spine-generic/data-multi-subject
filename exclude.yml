@@ -28,6 +28,7 @@ mtsat:
 - sub-fslAchieva04  # Poor data quality
 - sub-fslAchieva05  # Poor data quality
 - sub-fslAchieva06  # Poor data quality
+- sub-nottwil03  # Poor data quality
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
@@ -38,6 +39,7 @@ t1:
 - sub-fslAchieva04  # Poor data quality
 - sub-fslAchieva05  # Poor data quality
 - sub-fslAchieva06  # Poor data quality
+- sub-nottwil03  # Poor data quality
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
