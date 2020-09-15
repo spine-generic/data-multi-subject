@@ -31,6 +31,7 @@ mtsat:
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-pavia05  # Poor data quality
 t1:
 - fslAchieva  # Used different TR and inconsistent within site
 - sub-fslAchieva03  # Poor data quality
@@ -40,6 +41,7 @@ t1:
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-pavia05  # Poor data quality
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
