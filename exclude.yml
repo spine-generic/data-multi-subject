@@ -18,23 +18,20 @@ csa_gm:
 - sub-vuiisIngenia05  # Motion artifact
 mtr:
 - stanford  # Used different TR
-- fslAchieva  # Used different TR
+- fslAchieva  # Used different TR and inconsistent within site
 - sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 mtsat:
-- sub-geneva02  # TODO: check what's going on with this scan
+- fslAchieva  # Used different TR and inconsistent within site
+- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-tehranS04  # TODO: check what's going on with this scan
-- sub-fslAchieva04  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
-- sub-beijingPrisma01  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
 t1:
+- fslAchieva  # Used different TR and inconsistent within site
+- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-geneva02  # FOV positioning changed between MTon and MToff
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-fslAchieva03  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
-- sub-fslAchieva04  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
-- sub-fslAchieva05  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
-- sub-fslAchieva06  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
-- sub-beijingPrisma01  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
