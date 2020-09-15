@@ -16,11 +16,6 @@ csa_gm:
 - sub-fslAchieva04  # Motion artifact
 - sub-vuiisIngenia04  # Motion artifact
 - sub-vuiisIngenia05  # Motion artifact
-dti_fa:
-- sub-beijingPrisma03  # wrong FOV placement
-- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-oxfordFmrib01  # registration issue (segmentation OK)
 mtr:
 - stanford  # Used different TR
 - fslAchieva  # Used different TR
@@ -40,3 +35,18 @@ t1:
 - sub-fslAchieva05  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
 - sub-fslAchieva06  # Bad TR (https://github.com/spine-generic/data-multi-subject/issues/36#issuecomment-687112400)
 - sub-beijingPrisma01  # Poor data quality (https://github.com/spine-generic/data-multi-subject/issues/36#issue-690350212)
+dti_fa:
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib01  # registration issue (segmentation OK)
+dti_md:
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib01  # registration issue (segmentation OK)
+fig_dti_rd:
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib01  # registration issue (segmentation OK)
