@@ -1,9 +1,9 @@
 participant_id	sex	age	date_of_scan	institution_id	institution	manufacturer	manufacturers_model_name	receive_coil_name	software_versions	researcher
-sub-amu01	-	-	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu02	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu03	-	-	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu04	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-amu05	-	-	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu01	M	28	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu02	M	28	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu03	F	28	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu04	F	44	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
+sub-amu05	F	39	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-balgrist01	F	31	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist02	F	22	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist03	F	23	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
@@ -16,33 +16,33 @@ sub-barcelona03	M	39	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological
 sub-barcelona04	F	39	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona05	F	36	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona06	F	25	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-beijingGE01	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE02	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE03	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE04	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingPrisma01	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
-sub-beijingPrisma02	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
-sub-beijingPrisma03	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
-sub-beijingPrisma04	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
-sub-beijingPrisma05	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
-sub-beijingVerio01	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
-sub-beijingVerio02	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
-sub-beijingVerio03	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
-sub-beijingVerio04	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B22	Yazhuo Kong
+sub-beijingGE01	F	24	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE02	F	23	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE03	M	30	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE04	M	56	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingPrisma01	F	22	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma02	F	22	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
+sub-beijingPrisma03	F	34	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
+sub-beijingPrisma04	F	26	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
+sub-beijingPrisma05	M	27	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
+sub-beijingVerio01	F	24	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
+sub-beijingVerio02	F	23	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
+sub-beijingVerio03	M	30	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
+sub-beijingVerio04	M	56	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B22	Yazhuo Kong
 sub-brnoCeitec01	M	32	2019-02-04	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec02	F	27	2019-03-02	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec03	M	28	2019-03-12	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec04	F	29	2019-03-13	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec05	F	42	2019-03-15	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec06	M	28	2019-03-15	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
-sub-brnoUhb01	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb02	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb03	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb04	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb05	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb06	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb07	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
-sub-brnoUhb08	-	-	-	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb01	M	21	2019-02-13	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb02	M	25	2019-02-13	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb03	F	26	2019-02-13	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb04	M	25	2019-02-13	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb05	M	27	2019-02-14	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb06	F	21	2019-02-14	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb07	F	25	2019-02-14	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
+sub-brnoUhb08	F	26	2019-02-14	brnoUhb	"The University Hospital Brno, Department of Radiology and Nuclear Medicine, Czech Republic"	GE	Signa-PETMR	-	MP24	"Marek Dostal, Milo Kekovsk"
 sub-cardiff01	M	31	2019-02-01	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
 sub-cardiff02	F	34	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
 sub-cardiff03	M	33	2019-03-05	cardiff	"CUBRIC, Cardiff University, Wales, UK"	Siemens	Prisma	HeadNeck_64	VE11C	"G. Tackley, S. Kusmia, R. Wise"
@@ -62,20 +62,20 @@ sub-cmrrb04	M	21	2019-03-12	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spi
 sub-cmrrb05	M	30	2019-03-13	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrrb06	F	38	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrrb07	F	20	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-dresden01	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
-sub-dresden02	-	-	-	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
-sub-fslAchieva01	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva02	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva03	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva04	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva05	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva06	-	-	-	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslPrisma01	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
-sub-fslPrisma02	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
-sub-fslPrisma03	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
-sub-fslPrisma04	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
-sub-fslPrisma05	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
-sub-fslPrisma06	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
+sub-dresden01	F	33	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-dresden02	M	33	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-fslAchieva01	M	37	2019-02-26	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva02	M	28	2019-03-08	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva03	F	27	2019-03-25	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva04	F	26	2019-03-29	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva05	F	35	2019-04-10	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva06	M	32	2019-04-11	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslPrisma01	M	36	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma02	M	50	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
+sub-fslPrisma03	F	25	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
+sub-fslPrisma04	F	29	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
+sub-fslPrisma05	F	26	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
+sub-fslPrisma06	M	33	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
 sub-geneva01	M	29	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva02	M	36	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva03	M	27	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
@@ -240,13 +240,13 @@ sub-unf04	M	31	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polyt
 sub-unf05	F	23	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf06	F	27	2019-01-11	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf07	M	21	2019-03-22	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
-sub-vallHebron01	M	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron02	F	-	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron03	F	-	2019-01-23	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron04	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron05	F	-	2019-01-21	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron06	M	-	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
-sub-vallHebron07	M	-	2019-03-04	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron01	M	24	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron02	F	26	2019-01-16	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron03	F	21	2019-01-23	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron04	M	33	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron05	F	29	2019-01-21	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron06	F	25	2019-01-25	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
+sub-vallHebron07	M	40	2019-03-04	vallHebron	Vall d'Hebron Research Center	Siemens	TrioTim	NeckMatrix	syngo_MR_B17	Deborah Pareto Onghena
 sub-vuiisAchieva01	M	28	2019-02-11	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
 sub-vuiisAchieva02	M	23	2019-02-15	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
 sub-vuiisAchieva03	M	29	2019-02-25	vuiisAchieva	Vanderbilt University Institute of Imaging Science	Philips	Achieva-dStream	16-ch neurovascular	5.3.0.3	"K.P. O'Grady, A.J.E. Combes, S.A. Smith"
