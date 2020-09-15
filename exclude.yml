@@ -45,7 +45,7 @@ dti_md:
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
-fig_dti_rd:
+dti_rd:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
