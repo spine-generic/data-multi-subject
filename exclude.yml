@@ -16,23 +16,42 @@ csa_gm:
 - sub-fslAchieva04  # Motion artifact
 - sub-vuiisIngenia04  # Motion artifact
 - sub-vuiisIngenia05  # Motion artifact
+mtr:
+- stanford  # Used different TR
+- fslAchieva  # Used different TR and inconsistent within site
+- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-geneva02  # FOV positioning changed between MTon and MToff
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+mtsat:
+- fslAchieva  # Used different TR and inconsistent within site
+- sub-fslAchieva03  # Poor data quality
+- sub-fslAchieva04  # Poor data quality
+- sub-fslAchieva05  # Poor data quality
+- sub-fslAchieva06  # Poor data quality
+- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-geneva02  # FOV positioning changed between MTon and MToff
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+t1:
+- fslAchieva  # Used different TR and inconsistent within site
+- sub-fslAchieva03  # Poor data quality
+- sub-fslAchieva04  # Poor data quality
+- sub-fslAchieva05  # Poor data quality
+- sub-fslAchieva06  # Poor data quality
+- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-geneva02  # FOV positioning changed between MTon and MToff
+- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 dti_fa:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
-mtr:
-- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
-- sub-geneva02  # FOV positioning changed between MTon and MToff
+dti_md:
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- stanford  # Used different TR.
-mtsat:
-- sub-geneva02  # TODO: check what's going on with this scan
+- sub-oxfordFmrib01  # registration issue (segmentation OK)
+dti_rd:
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-tehranS04  # TODO: check what's going on with this scan
-t1:
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-fslAchieva03  # TODO: check what's going on with this scan
-- sub-fslAchieva04  # TODO: check what's going on with this scan
-- sub-fslAchieva05  # TODO: check what's going on with this scan
-- sub-fslAchieva06  # TODO: check what's going on with this scan
+- sub-oxfordFmrib01  # registration issue (segmentation OK)
