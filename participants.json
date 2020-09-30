@@ -11,6 +11,14 @@
         "LongName": "Participant age",
         "Description": "yy"
     },
+    "height": {
+        "LongName": "Participant height",
+        "Description": "cm"
+    },
+    "weight": {
+        "LongName": "Participant weight",
+        "Description": "kg"
+    },
     "date_of_scan": {
         "LongName": "Date of scan",
         "Description": "yyyy-mm-dd"
