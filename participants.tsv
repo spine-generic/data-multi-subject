@@ -1,4 +1,4 @@
-participant_id	sex	age height weight	date_of_scan	institution_id	institution	manufacturer	manufacturers_model_name	receive_coil_name	software_versions	researcher
+participant_id	sex	age height  weight	date_of_scan	institution_id	institution	manufacturer	manufacturers_model_name	receive_coil_name	software_versions	researcher
 sub-amu01	M	28  - -	2019-02-12	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-amu02	M	28  - -	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-amu03	F	28  - -	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
