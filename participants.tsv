@@ -55,13 +55,13 @@ sub-cmrra03	F	28	160	64	2019-03-08	cmrra	University of Minnesota	Siemens	Prisma-
 sub-cmrra04	F	22	163	54	2019-03-18	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrra05	F	24	152	47	2019-03-28	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrra06	M	22	178	77	2019-04-02	cmrra	University of Minnesota	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb01	F	23	-	-	2019-01-15	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb02	M	23	-	-	2019-02-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb03	M	24	-	-	2019-03-01	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb04	M	21	-	-	2019-03-12	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb05	M	30	-	-	2019-03-13	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb06	F	38	-	-	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-cmrrb07	F	20	-	-	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb01	F	23	165	61	2019-01-15	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb02	M	23	180	75	2019-02-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb03	M	24	185	68	2019-03-01	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb04	M	21	185	64	2019-03-12	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb05	M	30	178	75	2019-03-13	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb06	F	38	152	82	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
+sub-cmrrb07	F	20	165	66	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-dresden01	F	33	-	-	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-dresden02	M	33	-	-	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-fslAchieva01	M	37	-	-	2019-02-26	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
