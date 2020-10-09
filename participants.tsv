@@ -30,7 +30,7 @@ sub-beijingVerio02	F	23	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Veri
 sub-beijingVerio03	M	30	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
 sub-beijingVerio04	M	56	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B22	Yazhuo Kong
 sub-brnoCeitec01	M	32	187	92	2019-02-04	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
-sub-brnoCeitec02	F	27	163	56	2019-03-02	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
+sub-brnoCeitec02	F	27	163	56	2019-03-12	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec03	M	28	186	84	2019-03-12	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec04	F	29	170	63	2019-03-13	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
 sub-brnoCeitec05	F	42	172	58	2019-03-15	brnoCeitec	"CEITEC (Central European Institute of Technology), University Hospital Olomouc"	Siemens	Prisma	HeadNeck_64	syngo MR E11	"T. Horak, P. Kudlicka, J. Valosek"
