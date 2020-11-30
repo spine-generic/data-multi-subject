@@ -30,13 +30,13 @@ git annex get
 You may **substitute** `git annex get` with more specific commands if you are only interested in certain subjects. For example:
 
 ```
-get annex get sub-nwu01/ sub-nwu03/ sub-nwu04/ sub-oxfordFmrib04/ sub-tokyoSkyra*/
+git annex get sub-nwu01/ sub-nwu03/ sub-nwu04/ sub-oxfordFmrib04/ sub-tokyoSkyra*/
 ```
 
 
 ## Analysis
 
-The instructions to process this dataset are available in the [spine-generic documentation](https://spine-generic.readthedocs.io/en/latest/analysis_pipeline.html).
+The instructions to process this dataset are available in the [spine-generic documentation](https://spine-generic.readthedocs.io/en/latest/analysis-pipeline.html).
 
 ## Contributing
 

@@ -1,8 +1,14 @@
+## r20201130
+[View detailed changelog](https://github.com/spine-generic/data-multi-subject/compare/r20201001...r20201130)
+ - Fix broken link to analysis instructions.  [View pull request](https://github.com/spine-generic/data-multi-subject/pull/61)
+ - README.md: Fix typo (get -> git).  [View pull request](https://github.com/spine-generic/data-multi-subject/pull/60)
+
+
 ## r20201001
 [View detailed changelog](https://github.com/spine-generic/data-multi-subject/compare/r20200917...r20201001)
  - Create LICENSE.  [View pull request](https://github.com/spine-generic/data-multi-subject/pull/55)
  - Update participants.tsv.  [View pull request](https://github.com/spine-generic/data-multi-subject/pull/53)
- 
+
 
 ## r20200917
 [View detailed changelog](https://github.com/spine-generic/data-multi-subject/compare/r20200907...r20200917)
