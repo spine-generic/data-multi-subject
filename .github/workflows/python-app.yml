@@ -14,7 +14,8 @@ jobs:
 
     steps:
     - name: Maximize build space
-      uses: tomyun/maximize-build-space@master
+      #uses: tomyun/maximize-build-space@master
+      run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet
     - name: Checkout
       uses: actions/checkout@v2
     - name: Set up Python 3.7
