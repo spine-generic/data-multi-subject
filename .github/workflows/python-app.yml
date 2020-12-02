@@ -14,7 +14,6 @@ jobs:
 
     steps:
     - name: Maximize build space
-      #uses: tomyun/maximize-build-space@master
       run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet
     - name: Checkout
       uses: actions/checkout@v2
@@ -41,19 +40,19 @@ jobs:
         curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
         sudo apt-get install -y nodejs
         sudo npm install -g bids-validator
-    - name: Include $CONDA in $PATH
+    - name: Include miniconda in PATH
       run: |
         echo "$HOME/miniconda3/bin" >> $GITHUB_PATH
         echo "$HOME/miniconda3/Scripts" >> $GITHUB_PATH
         git config --global user.name "gh-actions"
         git config --global user.email "gh-actions"
-    - name: install
+    - name: setup
       run: |
 
         # download the data content
         git fetch origin git-annex:git-annex # Travis does a shallow checkout, so it is missing this important branch
         git annex init
-    - name: download
+    - name: download data
       run: |        
         echo -e "\e[1m \e[4m \e[34mDownloading dataset; this will take a while. \n"
         # this is -q because git-annex doesn't have a short progress bar like git
