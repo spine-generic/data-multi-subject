@@ -1,0 +1,67 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    
+    - name: before_install
+      run: |
+
+        # install spine-generic for acquisition parameters check
+        pip install spine-generic@git+https://github.com/spine-generic/spine-generic.git@v2.3
+
+        # use conda's git-annex, because it's the most up to date;
+        # Debian's is very behind, and even neurodebian's is behind
+        # by a year, and is currently incompatible with the format of this repo.
+        wget -O/tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+        bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -f
+        . ~/miniconda3/bin/activate # careful! after this we're no longer in Travis's python, we're in conda's!
+        conda install -y -c conda-forge git-annex
+
+        # install proper NodeJS for bids-validator
+        sudo rm -rf ~/.nvm
+        curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+        sudo apt-get install -y nodejs
+        sudo npm install -g bids-validator
+    - name: install
+      run: |
+
+        # download the data content
+        git fetch origin git-annex:git-annex # Travis does a shallow checkout, so it is missing this important branch
+        git annex init
+        echo -e "\e[1m \e[4m \e[34mDownloading dataset; this will take a while. \n"
+        # this is -q because git-annex doesn't have a short progress bar like git
+        # and the download log is overwhelming and not interesting and might trip over
+        #    https://docs.travis-ci.com/user/common-build-problems/#log-length-exceeded.
+        # but -q might instead trip over
+        #   https://docs.travis-ci.com/user/common-build-problems/#build-times-out-because-no-output-was-received
+        # so it's a balancing act.
+        travis_wait 20 git annex get -J 8 -q
+    - name: script
+      run: |
+        echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
+        bids-validator ./
+        echo -e "\e[1m \e[4m \e[34mChecking acquisition parameters \n"
+        sg_params_checker -path-in ./
+        echo -e "\e[1m \e[4m \e[34mChecking data consistency \n"
+        sg_check_data_consistency -path-in ./
