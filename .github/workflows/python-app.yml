@@ -50,6 +50,8 @@ jobs:
         # download the data content
         git fetch origin git-annex:git-annex # Travis does a shallow checkout, so it is missing this important branch
         git annex init
+    - name: download
+      run: |        
         echo -e "\e[1m \e[4m \e[34mDownloading dataset; this will take a while. \n"
         # this is -q because git-annex doesn't have a short progress bar like git
         # and the download log is overwhelming and not interesting and might trip over
@@ -57,7 +59,7 @@ jobs:
         # but -q might instead trip over
         #   https://docs.travis-ci.com/user/common-build-problems/#build-times-out-because-no-output-was-received
         # so it's a balancing act.
-        git annex get -J 8 -q
+        git annex get -J8
     - name: script
       run: |
         echo -e "\e[1m \e[4m \e[34mRunning BIDS-validator \n"
