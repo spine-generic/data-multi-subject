@@ -1,6 +1,6 @@
 # Spine Generic Public Database (Multi-Subject)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4299140.svg)](https://doi.org/10.5281/zenodo.4299140)
-![Python application](https://github.com/spine-generic/data-multi-subject/workflows/Python%20application/badge.svg)
+![BIDS Validator](https://github.com/spine-generic/data-multi-subject/workflows/BIDS%20Validator/badge.svg)
 ## About this dataset
 
 This dataset was acquired using the [spine-generic protocol](http://spinalcordmri.org/protocols)
