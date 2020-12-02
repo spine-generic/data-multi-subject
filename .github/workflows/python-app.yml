@@ -1,6 +1,5 @@
 
-name: Python application
-
+name: BIDS Validator
 on:
   push:
     branches: [ master ]
