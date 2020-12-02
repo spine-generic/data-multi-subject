@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Maximize build space
-      uses: easimon/maximize-build-space@master
+      uses: tomyun/maximize-build-space@master
     - name: Checkout
       uses: actions/checkout@v2
     - name: Set up Python 3.7
