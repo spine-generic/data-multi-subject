@@ -35,7 +35,7 @@ jobs:
         # by a year, and is currently incompatible with the format of this repo.
         wget -O/tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
         bash /tmp/Miniconda3-latest-Linux-x86_64.sh -b -f
-        ~/miniconda3/bin/activate # careful! after this we're no longer in Travis's python, we're in conda's!
+        source ~/miniconda3/bin/activate # careful! after this we're no longer in Travis's python, we're in conda's!
         conda install -y -c conda-forge git-annex
 
         # install proper NodeJS for bids-validator
