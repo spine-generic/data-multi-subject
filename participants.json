@@ -4,7 +4,7 @@
         "Description": "Unique ID"
     },
     "sex": {
-        "LongName": "Participant gender",
+        "LongName": "Participant sex",
         "Description": "M or F"
     },
     "age": {
