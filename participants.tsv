@@ -227,13 +227,13 @@ sub-ubc03	F	24	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, 
 sub-ubc04	F	25	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
 sub-ubc05	M	24	2019-06-07	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
 sub-ubc06	M	23	2019-06-17	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ucdavis01	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA20	Allan R. Martin
-sub-ucdavis02	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA21	Allan R. Martin
-sub-ucdavis03	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA22	Allan R. Martin
-sub-ucdavis04	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA23	Allan R. Martin
-sub-ucdavis05	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA24	Allan R. Martin
-sub-ucdavis06	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA25	Allan R. Martin
-sub-ucdavis07	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA26	Allan R. Martin
+sub-ucdavis01	F	32	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA20	Allan R. Martin
+sub-ucdavis02	F	56	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA21	Allan R. Martin
+sub-ucdavis03	M	41	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA22	Allan R. Martin
+sub-ucdavis04	F	31	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA23	Allan R. Martin
+sub-ucdavis05	F	50	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA24	Allan R. Martin
+sub-ucdavis06	M	34	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA25	Allan R. Martin
+sub-ucdavis07	M	36	-	ucdavis	"UC Davis Health, California, US"	Siemens	Magentom Vida	HeadNeck_64_CS	syngo MR XA26	Allan R. Martin
 sub-ucl01	F	34	2018-11-21	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
 sub-ucl02	M	31	2018-11-21	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
 sub-ucl03	M	30	2018-11-21	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
