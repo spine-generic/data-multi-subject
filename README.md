@@ -18,14 +18,24 @@ The entire dataset is about **10GB**.
 
 ## Download
 
-We are using a tool to manage large datasets called `git-annex`. To download this dataset, you need to have `git` installed, and also [install `git-annex`](https://git-annex.branchable.com/install/) *at version 8*. Then run:
+We are using a tool to manage large datasets called `git-annex`. To download this dataset, you need to have `git` installed, and also [install `git-annex`](https://github.com/neuropoly/data-management/blob/master/git-annex.md#installation)
 
-~~~
+> ⚠️  Make sure you have at least **version 8** by running:
+>
+> ```
+> $ git annex version | head -n 1
+> git-annex version: 8.20200330
+> ```
+
+
+Then this will download the dataset:
+
+```
 git clone https://github.com/spine-generic/data-multi-subject && \
 cd data-multi-subject && \
 git annex init && \
-git annex get
-~~~
+git annex get .
+```
 
 You may **substitute** `git annex get` with more specific commands if you are only interested in certain subjects. For example:
 
@@ -33,6 +43,7 @@ You may **substitute** `git annex get` with more specific commands if you are on
 git annex get sub-nwu01/ sub-nwu03/ sub-nwu04/ sub-oxfordFmrib04/ sub-tokyoSkyra*/
 ```
 
+See more at [the official documentation](https://git-annex.branchable.com/walkthrough/) and take note of our [in-lab troubleshooting](https://github.com/neuropoly/data-management/blob/master/git-annex.md).
 
 ## Analysis
 
