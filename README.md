@@ -20,7 +20,7 @@ The entire dataset is about **10GB**.
 
 We are using a tool to manage large datasets called `git-annex`. To download this dataset, you need to have `git` installed, and also [install `git-annex`](https://github.com/neuropoly/data-management/blob/master/git-annex.md#installation)
 
-> ⚠️  Make sure you have at least *version 8** by running:
+> ⚠️  Make sure you have at least **version 8** by running:
 >
 > ```
 > $ git annex version | head -n 1
