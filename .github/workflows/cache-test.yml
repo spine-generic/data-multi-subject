@@ -1,0 +1,101 @@
+
+name: Learning about Caching
+on:
+  push:
+    branches: [ master ]
+#  pull_request:
+    #branches: [ master ]
+
+jobs:
+  learninggg:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: debug git
+      run: |
+        git config -l
+        git remote -v
+        git branch -a
+
+    - name: make some files?
+      run: |
+        tree .cache
+    
+    - name: caching
+      uses: kousu/cache@main
+      with:
+        path: | 
+          .cache
+        key: bbuild-${{ hashFiles('.cache') }}
+        #key: build-${{ github.ref }}
+        restore-keys: |
+          bbuild-
+
+
+    # sooooo I think I can pull this off *almost* by
+    # using actions/cache twice
+    # first, load the cache using restore-key: build-
+    # 
+    # second, save the current contents using key: build-${{ hashfiles(cachedir) }}
+    #
+    # so, how this works is:
+    # the first time through, both caches are empty
+    # and you load nothing
+    # at the end of the run, *both caches get saved* ((this is the biggest bug with this approach; ideally there would
+    # be a way to *change* the cache key ))
+    # 
+    # #
+    # aha, this: https://github.com/gerbal/always-cache/commits/master
+    # this person is doing what I want to be doing. They want to *always save back the cache*
+    # or, this isn't even quite what I want
+    # what I want is:
+    # load a cache
+    # save a different cache
+    # let the 'most recent' rule sort it out between them
+    # the load a cache step should find the most recent build- and hope that's close enough
+    #
+    #
+    # to accomplish this with github's version I can.
+
+    - name: make some files?
+      run: |
+        set -x
+        tree .cache
+        mkdir -p .cache/lolololol
+        test -f .cache/lolololol/howsthat.txt || echo ${{ hashFiles('**/*.md') }} > .cache/lolololol/howsthat.txt
+        cd .cache
+        pwd
+        # -C - is curl for 'caching' (it requests HTTP content-ranges)
+        curl -JLO -C - https://download.pytorch.org/whl/cpu/torch-1.2.0%2Bcpu-cp27-cp27m-manylinux1_x86_64.whl 
+        echo '--------------------------------------------------------------------------------------------'
+        tree .cache
+        rm -f 7f6896a6655a0859a8b2f4de915d21ef54edf572a20be801174b5ceeb19c6506.txt
+        touch 7f6896a6655a0859a8b2f4de915d21ef54edf572a20be801174b5ceeb19c6506.md5
+        #touch ${{ hashFiles('.cache') }}.txt
+        #
+        ## edit edit
+
+    - name: check some files?
+      run: |
+        set -x
+        tree .cache
+
+    - name: git config
+      run: |
+        # this is needed by git-annex so that it can write to the local git-annex branch
+        # the tracking information about the local copy
+        git config --global user.name "gh-actions"
+        git config --global user.email "gh-actions"
+        # but actually, disable those writes. We don't need them because we're throwing away this copy immediately.
+        git config annex.alwayscommit false
+
+    - name: Download dataset
+      run: |
+        sudo apt-get update && sudo apt-get install -y git-annex
+        git fetch --depth=1 origin git-annex:git-annex # CI does a shallow checkout, so it is missing this important branch
+        git annex init
+        git annex get -J8 sub-amu01
