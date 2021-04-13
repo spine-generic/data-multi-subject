@@ -57,6 +57,7 @@ jobs:
         git config --global user.name "gh-actions"
         git config --global user.email "gh-actions"
         # but actually, disable those writes. We don't need them because we're throwing away this copy immediately.
+        # this might make the previous two lines unnecessary, but it's safer just to leave them both in
         git config annex.alwayscommit false
 
     - name: Download dataset
