@@ -44,6 +44,7 @@ jobs:
     #    # this takes about 2 minutes but saves about 30GB, which is space we might need for git-annex.
     #    # annex.thin saves a lot of space, but if the dataset grows beyond what Github can handle
     #    # try enabling this.
+    #    # ref: https://github.com/actions/virtual-environments/issues/2606#issuecomment-772683150
     #    sudo rm -rf /usr/local/lib/android /usr/share/dotnet
 
     - name: Checkout
