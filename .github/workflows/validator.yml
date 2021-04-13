@@ -19,7 +19,7 @@ jobs:
 
     #- name: Update software
     #  run: |
-    # do we want to do this? it's helpful but also slow.
+    #    # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
     #    sudo apt-get update &&
     #    sudo DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade &&
     #    sudo DEBIAN_FRONTEND=noninteractive apt-get autoremove
