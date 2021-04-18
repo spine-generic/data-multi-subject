@@ -43,6 +43,9 @@ jobs:
           exit 1
         fi
 
+    - name: Lint participants.tsv
+      run: .github/workflows/lint-tsv participants.tsv
+
     #- name: Update software
     #  run: |
     #    # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
