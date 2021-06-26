@@ -1,0 +1,48 @@
+#!/usr/bin/env -S awk -f
+# lint .tsv files
+# - make sure every record is the same length
+# - make sure every field has content - even a null value should at least be '-'
+# <nick@kousu.ca> 2021, public domain
+#
+# TODO: package this for public consumption
+# TODO: make BSD-awk compatible
+
+BEGIN { FS="\t" }
+
+NR == 1 { NF_HEADER=NF }
+
+NF != NF_HEADER {
+  print "incorrect number of columns, line " NR
+  LINE_ERROR=1
+}
+
+{
+  for(i=1; i<=NF; i++) {
+
+    # strip surrounding whitespace
+    # is there a better way?
+    s=$i
+    sub(/(^[[:space:]]+)/, "", s)
+    sub(/([[:space:]]+)$/, "", s)
+    #print "|" $i "| -> |" s "|" # DEBUG
+
+    # check that each field is stripped and non-null.
+    if(length(s) == 0) {
+      print "empty field, line " NR ", column " i ". Please use '-' for null values."
+      LINE_ERROR=1
+    }
+    else if($i != s) {
+      print "extraneous whitespace, line " NR ", column " i ": '" $i "'"
+      LINE_ERROR=1
+    }
+
+  }
+}
+
+LINE_ERROR==1 {
+    print "errors in line " NR ": \n\t'" $0 "'\n"
+    ANY_ERROR=1
+    LINE_ERROR=0 # reset for next time
+}
+
+END { if(ANY_ERROR) { exit 1 } }
