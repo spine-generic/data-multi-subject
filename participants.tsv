@@ -239,7 +239,7 @@ sub-ucl02	M	31	-	-	2018-11-21	ucl	University College London	Philips	Achieva-dStr
 sub-ucl03	M	30	-	-	2018-11-21	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
 sub-ucl04	F	37	-	-	2018-11-26	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
 sub-ucl05	M	38	-	-	2018-11-28	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
-sub-ucl06	F	36	-	-	2018-11-29	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
+sub-ucl06	F	33	-	-	2018-11-29	ucl	University College London	Philips	Achieva-dStream	-	Release 5.4	"F. Grussu, M. Battiston, R. S. Samson, M. C. Yiannakas, C. A. M. Gandini Wheeler-Kingshott"
 sub-unf01	F	24	169	70	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf02	M	29	180	95	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
 sub-unf03	M	22	170	60	2018-12-07	unf	"Neuroimaging Functional Unit (UNF), CRIUGM, Polytechnique Montreal"	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"J. Cohen-Adad, A. Foias"
