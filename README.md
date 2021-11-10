@@ -23,8 +23,8 @@ We are using a tool to manage large datasets called `git-annex`. To download thi
 > ⚠️  Make sure you have at least **version 8** by running:
 >
 > ```
-> $ git annex version | head -n 1
-> git-annex version: 8.20200330
+> git annex version | head -n 1
+> # the answer should show something like: git-annex version: 8.20200330
 > ```
 
 
@@ -41,6 +41,12 @@ You may **substitute** `git annex get` with more specific commands if you are on
 
 ```
 git annex get sub-nwu01/ sub-nwu03/ sub-nwu04/ sub-oxfordFmrib04/ sub-tokyoSkyra*/
+```
+
+If you with to update an already-cloned repository, run:
+
+```
+git annex sync
 ```
 
 See more at [the official documentation](https://git-annex.branchable.com/walkthrough/) and take note of our [in-lab troubleshooting](https://github.com/neuropoly/data-management/blob/master/git-annex.md).
