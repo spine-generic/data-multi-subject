@@ -46,7 +46,7 @@ git annex get sub-nwu01/ sub-nwu03/ sub-nwu04/ sub-oxfordFmrib04/ sub-tokyoSkyra
 If you with to update an already-cloned repository, run:
 
 ```
-git annex sync
+git pull && git annex get .
 ```
 
 See more at [the official documentation](https://git-annex.branchable.com/walkthrough/) and take note of our [in-lab troubleshooting](https://github.com/neuropoly/data-management/blob/master/git-annex.md).
