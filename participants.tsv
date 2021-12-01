@@ -135,12 +135,12 @@ sub-nottwil03	M	38	182	76	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Swi
 sub-nottwil04	F	25	162	65	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
 sub-nottwil05	F	28	169	69	2019-01-08	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
 sub-nottwil06	M	36	198	97	2019-01-10	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nwu01	M	24	-	-	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
-sub-nwu02	F	26	-	-	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
-sub-nwu03	F	24	-	-	2019-02-21	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
-sub-nwu04	M	25	-	-	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
-sub-nwu05	M	27	-	-	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
-sub-nwu06	F	24	-	-	2019-02-27	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu01	M	24	173	70	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu02	F	26	163	57	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu03	F	24	167	53	2019-02-21	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu04	M	25	188	75	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu05	M	27	182	68	2019-02-25	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
+sub-nwu06	F	24	160	59	2019-02-27	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
 sub-oxfordFmrib01	M	26	-	-	2019-02-04	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
 sub-oxfordFmrib02	M	22	-	-	2019-02-04	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
 sub-oxfordFmrib03	M	24	-	-	2019-02-13	oxfordFmrib	"Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford"	Siemens	Prisma	64ch	VE11C	"D. Papp, A. K. Smith"
