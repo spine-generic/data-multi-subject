@@ -20,11 +20,11 @@ sub-beijingGE01	F	24	161	43	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_
 sub-beijingGE02	F	23	163	55	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE03	M	30	173	70	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE04	M	56	177	80	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingPrisma01	F	22	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
-sub-beijingPrisma02	F	22	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
-sub-beijingPrisma03	F	34	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
-sub-beijingPrisma04	F	26	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
-sub-beijingPrisma05	M	27	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
+sub-beijingPrisma01	F	22	166	66	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma02	F	22	166	66	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
+sub-beijingPrisma03	F	34	163	60	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
+sub-beijingPrisma04	F	26	158	73	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
+sub-beijingPrisma05	M	27	173	75	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
 sub-beijingVerio01	F	24	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
 sub-beijingVerio02	F	23	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
 sub-beijingVerio03	M	30	-	-	-	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
