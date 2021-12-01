@@ -64,12 +64,12 @@ sub-cmrrb06	F	38	152	82	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-
 sub-cmrrb07	F	20	165	66	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-dresden01	F	33	177	60	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-dresden02	M	33	182	65	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
-sub-fslAchieva01	M	37	-	-	2019-02-26	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva02	M	28	-	-	2019-03-08	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva03	F	27	-	-	2019-03-25	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva04	F	26	-	-	2019-03-29	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva05	F	35	-	-	2019-04-10	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslAchieva06	M	32	-	-	2019-04-11	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva01	M	37	192	100	2019-02-26	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva02	M	28	180	85	2019-03-08	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva03	F	27	160	50	2019-03-25	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva04	F	26	168	63	2019-03-29	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva05	F	35	158	58	2019-04-10	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
+sub-fslAchieva06	M	32	165	55	2019-04-11	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-fslPrisma01	M	36	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
 sub-fslPrisma02	M	50	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
 sub-fslPrisma03	F	25	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
