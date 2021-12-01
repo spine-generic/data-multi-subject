@@ -16,10 +16,10 @@ sub-barcelona03	M	39	185	85	2018-11-23	barcelona	Advanced Imaging in Neuroimmuno
 sub-barcelona04	F	39	155	58	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona05	F	36	164	51	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona06	F	25	170	55	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-beijingGE01	F	24	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE02	F	23	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE03	M	30	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
-sub-beijingGE04	M	56	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE01	F	24	161	43	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE02	F	23	163	55	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE03	M	30	173	70	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
+sub-beijingGE04	M	56	177	80	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingPrisma01	F	22	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
 sub-beijingPrisma02	F	22	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
 sub-beijingPrisma03	F	34	-	-	-	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
