@@ -62,8 +62,8 @@ sub-cmrrb04	M	21	185	64	2019-03-12	cmrrb	University of Minnesota	Siemens	Prisma-
 sub-cmrrb05	M	30	178	75	2019-03-13	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrrb06	F	38	152	82	2019-03-27	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
 sub-cmrrb07	F	20	165	66	2019-06-21	cmrrb	University of Minnesota	Siemens	Prisma-fit	Spine_32	syngo_MR_E11	"R. Labounek, J. Joers, C. Nguyen, I. Nestrasil, C. Lenglet, P-G. Henry"
-sub-dresden01	F	33	-	-	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
-sub-dresden02	M	33	-	-	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-dresden01	F	33	177	60	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
+sub-dresden02	M	33	182	65	2019-04-04	dresden	"Institut_fur_Neuroradiologie, Dresden, Germany"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Kuntke Paul
 sub-fslAchieva01	M	37	-	-	2019-02-26	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-fslAchieva02	M	28	-	-	2019-03-08	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-fslAchieva03	F	27	-	-	2019-03-25	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
