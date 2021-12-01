@@ -221,12 +221,12 @@ sub-tokyoSkyra04	F	29	161	65	2019-10-01	tokyoSkyra	the University of Tokyo	Sieme
 sub-tokyoSkyra05	F	28	154	51	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
 sub-tokyoSkyra06	M	24	160	48	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
 sub-tokyoSkyra07	M	35	165	60	2019-06-13	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	"K. Kamiya, Y. Suzuki"
-sub-ubc01	F	23	-	-	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ubc02	M	25	-	-	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ubc03	F	24	-	-	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ubc04	F	25	-	-	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ubc05	M	24	-	-	2019-06-07	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
-sub-ubc06	M	23	-	-	2019-06-17	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc01	F	23	175	61	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc02	M	25	187	75	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc03	F	24	180	78	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc04	F	25	176	54	2019-06-06	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc05	M	24	173	59	2019-06-07	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
+sub-ubc06	M	23	180	84	2019-06-17	ubc	"University of British Columbia (UBC), Vancouver, Canada"	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	"A.V. Dvorak, E. MacMillan, S. Kolind"
 sub-ucdavis01	F	32	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Vida	HeadNeck_64	syngo MR XA20	Allan R. Martin
 sub-ucdavis02	F	56	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Vida	HeadNeck_64	syngo MR XA20	Allan R. Martin
 sub-ucdavis03	M	41	-	-	-	ucdavis	"UC Davis Health, California, US"	Siemens	Vida	HeadNeck_64	syngo MR XA20	Allan R. Martin
