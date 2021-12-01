@@ -82,12 +82,12 @@ sub-geneva03	M	27	175	78	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	
 sub-geneva04	F	29	153	46	2019-01-30	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva05	F	30	168	53	2019-02-01	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva06	F	33	163	64	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-hamburg01	M	28	-	-	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-hamburg02	F	30	-	-	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-hamburg03	M	21	-	-	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-hamburg04	F	33	-	-	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-hamburg05	F	26	-	-	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-hamburg06	M	38	-	-	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg01	M	28	203	83	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg02	F	30	170	58	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg03	M	21	184	87	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg04	F	33	175	60	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg05	F	26	185	68	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
+sub-hamburg06	M	38	182	83	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
 sub-juntendo750w01	F	28	-	-	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
 sub-juntendo750w02	F	27	-	-	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
 sub-juntendo750w03	M	24	-	-	2019-02-06	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
