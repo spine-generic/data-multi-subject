@@ -129,12 +129,12 @@ sub-mpicbs03	M	26	184	68	2019-04-04	mpicbs	Max Planck Institute for Human Cognit
 sub-mpicbs05	F	20	172	53	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
 sub-mpicbs06	M	22	177	77	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
 sub-mpicbs07	M	25	177	75	2019-04-05	mpicbs	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Prisma-fit	64ch+spine	VE11C	"F. Eippert, T. Leutritz, N. Weiskopf"
-sub-nottwil01	F	25	-	-	2018-12-19	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nottwil02	M	23	-	-	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nottwil03	M	38	-	-	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nottwil04	F	25	-	-	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nottwil05	F	28	-	-	2019-01-08	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
-sub-nottwil06	M	36	-	-	2019-01-10	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil01	F	25	170	64	2018-12-19	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil02	M	23	173	80	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil03	M	38	182	76	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil04	F	25	162	65	2019-01-03	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil05	F	28	169	69	2019-01-08	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
+sub-nottwil06	M	36	198	97	2019-01-10	nottwil	Swiss Paraplegic Centre Nottwil Switzerland	Philips	Achieva-dStream	-	Release 5.4.1	"P.Wyss, M.Abramovic, C.Arneitz, M.Berger"
 sub-nwu01	M	24	-	-	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
 sub-nwu02	F	26	-	-	2019-02-20	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
 sub-nwu03	F	24	-	-	2019-02-21	nwu	Northwestern University	Siemens	Prisma-fit	64ch+spine	VE11C	H. Karbasforoushan
