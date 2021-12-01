@@ -88,12 +88,12 @@ sub-hamburg03	M	21	184	87	2019-03-06	hamburg	"Institute of Systems Neuroscience,
 sub-hamburg04	F	33	175	60	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
 sub-hamburg05	F	26	185	68	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
 sub-hamburg06	M	38	182	83	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
-sub-juntendo750w01	F	28	-	-	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-juntendo750w02	F	27	-	-	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-juntendo750w03	M	24	-	-	2019-02-06	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-juntendo750w04	M	23	-	-	2019-02-08	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-juntendo750w05	F	26	-	-	2019-02-04	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-juntendo750w06	M	23	-	-	2019-02-05	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w01	F	28	169	52	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w02	F	27	160	50	2019-02-07	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w03	M	24	174	70	2019-02-06	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w04	M	23	174	79	2019-02-08	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w05	F	26	155	71	2019-02-04	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
+sub-juntendo750w06	M	23	169	71	2019-02-05	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
 sub-mgh01	F	28	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
 sub-mgh02	F	33	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
 sub-mgh03	F	43	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
