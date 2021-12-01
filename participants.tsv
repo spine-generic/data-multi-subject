@@ -10,12 +10,12 @@ sub-balgrist03	F	23	175	85	-	balgrist	Spinal Cord Injury Center University Balgr
 sub-balgrist04	M	28	195	90	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist05	M	27	168	60	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-balgrist06	M	23	170	64	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-barcelona01	M	36	-	-	2018-10-16	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-barcelona02	M	38	-	-	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-barcelona03	M	39	-	-	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-barcelona04	F	39	-	-	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-barcelona05	F	36	-	-	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
-sub-barcelona06	F	25	-	-	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona01	M	36	170	70	2018-10-16	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona02	M	38	190	95	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona03	M	39	185	85	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona04	F	39	155	58	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona05	F	36	164	51	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
+sub-barcelona06	F	25	170	55	2018-11-30	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-beijingGE01	F	24	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE02	F	23	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE03	M	30	-	-	-	beijing750	Beijing Tiantan Hospital	GE	MR750	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
