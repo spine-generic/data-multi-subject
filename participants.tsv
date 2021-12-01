@@ -94,12 +94,12 @@ sub-juntendo750w03	M	24	174	70	2019-02-06	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w
 sub-juntendo750w04	M	23	174	79	2019-02-08	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
 sub-juntendo750w05	F	26	155	71	2019-02-04	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
 sub-juntendo750w06	M	23	169	71	2019-02-05	juntendo750w	JUNTENDO_UNV_HP	GE	MR750w	-	27_LX_MR_Software_release:DV26.0_R02_1810.b	Hagiwara A.
-sub-mgh01	F	28	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-mgh02	F	33	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-mgh03	F	43	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-mgh04	M	28	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-mgh05	M	31	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-mgh06	M	36	-	-	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh01	F	28	173	73	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh02	F	33	155	41	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh03	F	43	160	57	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh04	M	28	183	79	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh05	M	31	183	91	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
+sub-mgh06	M	36	188	90	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
 sub-milan01	M	25	-	-	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
 sub-milan02	F	35	-	-	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
 sub-milan03	F	28	-	-	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
