@@ -100,13 +100,13 @@ sub-mgh03	F	43	160	57	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyr
 sub-mgh04	M	28	183	79	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
 sub-mgh05	M	31	183	91	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
 sub-mgh06	M	36	188	90	2019-01-01	mgh	Massachusetts General Hospital	Siemens	Skyra	64ch+spine	VE11C	R. L. Barry
-sub-milan01	M	25	-	-	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan02	F	35	-	-	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan03	F	28	-	-	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan04	F	27	-	-	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan05	M	28	-	-	2019-01-09	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan06	M	35	-	-	2019-01-10	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
-sub-milan07	M	31	-	-	2019-01-15	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan01	M	25	189	95	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan02	F	35	165	53	2018-12-18	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan03	F	28	163	65	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan04	F	27	160	48	2018-12-20	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan05	M	28	175	67	2019-01-09	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan06	M	35	169	70	2019-01-10	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
+sub-milan07	M	31	189	92	2019-01-15	milan	"IRCCS Fondazione Don Carlo Gnocchi, Milan, Italy"	Siemens	Prisma	64ch+spine	VE11C	M. M. Lagana
 sub-mniPilot1	F	30	-	-	2019-02-26	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
 sub-mniS01	M	37	-	-	2019-02-26	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
 sub-mniS02	M	29	-	-	2019-02-28	mni	"Montreal Neurological Institute, McGill University"	Siemens	Prisma-fit	64ch+spine	VE11C	"Benjamin De Leener, Julien Doyon"
