@@ -70,12 +70,12 @@ sub-fslAchieva03	F	27	160	50	2019-03-25	fslAchieva	"Santa Lucia Foundation IRCCS
 sub-fslAchieva04	F	26	168	63	2019-03-29	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-fslAchieva05	F	35	158	58	2019-04-10	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
 sub-fslAchieva06	M	32	165	55	2019-04-11	fslAchieva	"Santa Lucia Foundation IRCCS, Rome, Italy"	Philips	Achieva	-	5.4.1_5.4.1.1	Michela Fratini
-sub-fslPrisma01	M	36	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
-sub-fslPrisma02	M	50	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
-sub-fslPrisma03	F	25	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
-sub-fslPrisma04	F	29	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
-sub-fslPrisma05	F	26	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
-sub-fslPrisma06	M	33	-	-	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
+sub-fslPrisma01	M	36	175	70	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma02	M	50	170	81	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
+sub-fslPrisma03	F	25	164	46	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
+sub-fslPrisma04	F	29	148	47	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
+sub-fslPrisma05	F	26	160	49	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
+sub-fslPrisma06	M	33	183	84	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
 sub-geneva01	M	29	-	-	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva02	M	36	-	-	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-geneva03	M	27	-	-	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
