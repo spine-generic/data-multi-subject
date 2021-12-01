@@ -76,12 +76,12 @@ sub-fslPrisma03	F	25	164	46	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Ita
 sub-fslPrisma04	F	29	148	47	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
 sub-fslPrisma05	F	26	160	49	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
 sub-fslPrisma06	M	33	183	84	-	fslPrisma	"Santa Lucia Foundation IRCCS, Rome, Italy"	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
-sub-geneva01	M	29	-	-	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-geneva02	M	36	-	-	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-geneva03	M	27	-	-	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-geneva04	F	29	-	-	2019-01-30	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-geneva05	F	30	-	-	2019-02-01	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
-sub-geneva06	F	33	-	-	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva01	M	29	189	69	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva02	M	36	180	89	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva03	M	27	175	78	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva04	F	29	153	46	2019-01-30	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva05	F	30	168	53	2019-02-01	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
+sub-geneva06	F	33	163	64	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	"K. Kinany, L. Mattera"
 sub-hamburg01	M	28	-	-	2019-03-08	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
 sub-hamburg02	F	30	-	-	2019-03-12	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
 sub-hamburg03	M	21	-	-	2019-03-06	hamburg	"Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf"	Siemens	Prisma-fit	64ch+spine	VE11C	"A. Tinnermann, J. Finsterbusch, C. Buechel"
