@@ -182,12 +182,12 @@ sub-sherbrooke04	F	29	167	70	2019-10-01	sherbrooke	Universite de Sherbrooke	Phil
 sub-sherbrooke05	F	28	165	60	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
 sub-sherbrooke06	M	24	177	73	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
 sub-sherbrooke07	M	35	181	76	2019-10-01	sherbrooke	Universite de Sherbrooke	Philips	Ingenia	16ch head/neck+12ch posterior	R5.3.1	"M. Descoteaux, G. Gilbert"
-sub-stanford01	M	33	-	-	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
-sub-stanford02	F	39	-	-	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
-sub-stanford03	M	36	-	-	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
-sub-stanford04	F	34	-	-	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
-sub-stanford05	M	19	-	-	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
-sub-stanford06	F	20	-	-	2018-02-27	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford01	M	33	173	73	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford02	F	39	163	54	2018-02-22	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford03	M	36	175	73	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford04	F	34	165	57	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford05	M	19	178	59	2018-02-24	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
+sub-stanford06	F	20	163	50	2018-02-27	stanford	Stanford University	GE	MR750	16ch neurovascular	DV26.0_R01	"C. S. Law, K. A. Weber II, S. Mackey, K. R. Epperson, K. S Epperson"
 sub-strasbourg01	M	40	-	-	2019-03-14	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
 sub-strasbourg02	M	52	-	-	2019-03-14	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
 sub-strasbourg03	F	41	-	-	2019-04-03	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
