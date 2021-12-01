@@ -4,12 +4,12 @@ sub-amu02	M	28	183	67	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syng
 sub-amu03	F	28	163	76	2019-02-13	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-amu04	F	44	163	55	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
 sub-amu05	F	39	175	66	2019-03-01	amu	AMU - CEMEREM	Siemens	Verio	NeckMatrix	syngo_MR_B17	Virginie Callot
-sub-balgrist01	F	31	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-balgrist02	F	22	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-balgrist03	F	23	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-balgrist04	M	28	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-balgrist05	M	27	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
-sub-balgrist06	M	23	-	-	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist01	F	31	158	60	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist02	F	22	170	72	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist03	F	23	175	85	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist04	M	28	195	90	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist05	M	27	168	60	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
+sub-balgrist06	M	23	170	64	-	balgrist	Spinal Cord Injury Center University Balgrist Clinic	Siemens	Prisma	HeadNeck_64	VE11C	"M. Seif, P. Freund"
 sub-barcelona01	M	36	-	-	2018-10-16	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona02	M	38	-	-	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
 sub-barcelona03	M	39	-	-	2018-11-23	barcelona	Advanced Imaging in Neuroimmunological Diseases (ImaginEM) group	Siemens	Prisma-fit	HeadNeck_64	syngo_MR_E11	"Martinez-Heras E, Solana E, Llufriu S"
