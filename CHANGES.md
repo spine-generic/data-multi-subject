@@ -1,3 +1,23 @@
+## r20211125
+
+* Add badge DOI by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/63
+* Move CI from travis to GH actions by @olix86 in https://github.com/spine-generic/data-multi-subject/pull/64
+* Rename badge by @olix86 in https://github.com/spine-generic/data-multi-subject/pull/66
+* Speed up git-annex operations by @kousu in https://github.com/spine-generic/data-multi-subject/pull/69
+* Replace gender with sex in participants.json by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/70
+* Fix GH actions by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/74
+* add missing json sidecar for csfseg-manual by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/72
+* BF: remove executable bit from text files in the root of the dataset by @yarikoptic in https://github.com/spine-generic/data-multi-subject/pull/76
+* Warn about git-annex's version more prominently by @kousu in https://github.com/spine-generic/data-multi-subject/pull/81
+* Clean up CI code from before we used Github Actions. by @kousu in https://github.com/spine-generic/data-multi-subject/pull/79
+* Handle testing forks. by @kousu in https://github.com/spine-generic/data-multi-subject/pull/83
+* add site data ucdavis by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/77
+* Adding height and weight into participants by @kousu in https://github.com/spine-generic/data-multi-subject/pull/85
+* Lint line endings by @kousu in https://github.com/spine-generic/data-multi-subject/pull/87
+* Lint .tsv by @kousu in https://github.com/spine-generic/data-multi-subject/pull/86
+* Update age sub-ucl06 by @alexfoias in https://github.com/spine-generic/data-multi-subject/pull/98
+* Update LICENSE to CC4.0 by @jcohenadad in https://github.com/spine-generic/data-multi-subject/pull/100
+
 ## r20201130
 [View detailed changelog](https://github.com/spine-generic/data-multi-subject/compare/r20201001...r20201130)
  - Fix broken link to analysis instructions.  [View pull request](https://github.com/spine-generic/data-multi-subject/pull/61)
