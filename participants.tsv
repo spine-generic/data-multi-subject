@@ -194,12 +194,12 @@ sub-strasbourg03	F	41	166	53	2019-04-03	strasbourg	ICube Laboratory	Siemens	Veri
 sub-strasbourg04	F	50	165	68	2019-04-03	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
 sub-strasbourg05	M	33	169	74	2019-04-08	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
 sub-strasbourg06	F	28	168	52	2019-04-10	strasbourg	ICube Laboratory	Siemens	Verio	12ch+4ch neck	VB17	P. L. de Sousa
-sub-tehranS01	F	32	-	-	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tehranS02	M	33	-	-	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tehranS03	F	30	-	-	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tehranS04	F	33	-	-	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tehranS05	M	23	-	-	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tehranS06	M	30	-	-	2019-02-16	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS01	F	32	160	62	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS02	M	33	181	77	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS03	F	30	170	65	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS04	F	33	159	54	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS05	M	23	174	72	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
+sub-tehranS06	M	30	183	81	2019-02-16	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
 sub-tokyo750w01	M	25	177	70	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
 sub-tokyo750w02	F	32	168	80	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
 sub-tokyo750w03	M	36	162	57	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	-	24_LX_MR_Software_release:DV24.0_R01_1344.a	"K. Kamiya, Y. Suzuki"
