@@ -63,6 +63,20 @@ def fetch_repetitiontime(fname_json):
         else:
             raise ReferenceError
 
+def fetch_acqparam(fname_json, acq_param):
+    """
+    Fetch the value of Acquisition Parameter in the JSON file of the same basename as fname_nifti
+    Return: Acquisition Parameter
+    """
+    # Open JSON file
+    with open(fname_json) as f:
+        dict_json = json.load(f)
+        if acq_param in dict_json:
+            return (dict_json[acq_param])
+        else:
+            raise ReferenceError
+
+
 def main(argv=None):
     parser = get_parser()
     args = parser.parse_args(argv)
@@ -96,9 +110,23 @@ def main(argv=None):
         except ReferenceError:
             print("Field 'SliceTiming' was not found in the JSON sidecar.")
             row.append("N")
+        try:
+            acq_matrix = fetch_acqparam(file,'AcquisitionMatrixPE')
+            row.append(acq_matrix)
+        except ReferenceError:
+            print("Field 'AcquisitionMatrixPE' was not found in the JSON sidecar.")
+            row.append("N")
+        try:
+            acq_matrix = fetch_acqparam(file, 'ReconMatrixPE')
+            row.append(acq_matrix)
+        except ReferenceError:
+            print("Field 'ReconMatrixPE' was not found in the JSON sidecar.")
+            row.append("N")
+
+
         rows.append(row)
 
-    df = pd.DataFrame(rows, columns=["Subject", "RepetitionTime", "AcquisitionDuration", "VolumeTiming", "SliceTiming"])
+    df = pd.DataFrame(rows, columns=["Subject", "RepetitionTime", "AcquisitionDuration", "VolumeTiming", "SliceTiming", "AcquisitionMatrixPE", "ReconMatrixPE"])
     df = df.sort_values(by=['Subject'])
     df.to_csv(args.output, index=False)
 
