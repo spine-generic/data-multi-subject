@@ -200,27 +200,27 @@ sub-tehranS03	F	30	170	65	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Sieme
 sub-tehranS04	F	33	159	54	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
 sub-tehranS05	M	23	174	72	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
 sub-tehranS06	M	30	183	81	2019-02-16	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-sub-tokyo750w01	M	25	177	70	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w02	F	32	168	80	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w03	M	36	162	57	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w04	F	29	161	65	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w05	F	28	154	51	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w06	M	24	160	48	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyo750w07	M	35	165	60	2019-06-21	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia01	M	25	177	70	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia02	F	32	168	80	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia03	M	36	162	57	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia04	F	29	161	65	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia05	F	28	154	51	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia06	M	24	160	48	2019-06-13	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoIngenia07	M	35	165	60	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra01	M	25	177	70	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra02	F	32	168	80	2019-04-05	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra03	M	36	162	57	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra04	F	29	161	65	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra05	F	28	154	51	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra06	M	24	160	48	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
-sub-tokyoSkyra07	M	35	165	60	2019-06-13	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyo750w01	M	36	177	70	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w02	M	36	168	80	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w03	M	32	162	57	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w04	F	34	161	65	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w05	F	35	154	51	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w06	F	30	160	48	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyo750w07	M	29	165	60	2019-06-21	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia01	M	36	177	70	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia02	M	36	168	80	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia03	M	32	162	57	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia04	F	34	161	65	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia05	F	35	154	51	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia06	F	30	160	48	2019-06-13	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoIngenia07	M	29	165	60	2019-10-01	tokyo	Ingenia the University of Tokyo	Philips	Ingenia	n/a	5.3.1_5.3.1.1	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra01	M	36	177	70	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra02	M	36	168	80	2019-04-05	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra03	M	32	162	57	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra04	F	34	161	65	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra05	F	35	154	51	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra06	F	30	160	48	2019-10-01	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
+sub-tokyoSkyra07	M	29	165	60	2019-06-13	tokyoSkyra	the University of Tokyo	Siemens	Skyra	HeadNeck_20	syngo_MR_E11	K. Kamiya, Y. Suzuki
 sub-ubc01	F	23	175	61	2019-06-06	ubc	University of British Columbia (UBC), Vancouver, Canada	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	A.V. Dvorak, E. MacMillan, S. Kolind
 sub-ubc02	M	25	187	75	2019-06-06	ubc	University of British Columbia (UBC), Vancouver, Canada	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	A.V. Dvorak, E. MacMillan, S. Kolind
 sub-ubc03	F	24	180	78	2019-06-06	ubc	University of British Columbia (UBC), Vancouver, Canada	Philips	Ingenia-ElitionX	16chHeadNeck+Posterior	R5.5	A.V. Dvorak, E. MacMillan, S. Kolind
