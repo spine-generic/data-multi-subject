@@ -21,14 +21,14 @@ sub-beijingGE02	F	23	163	55	n/a	beijing750	Beijing Tiantan Hospital	GE	MR750	n/a
 sub-beijingGE03	M	30	173	70	n/a	beijing750	Beijing Tiantan Hospital	GE	MR750	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingGE04	M	56	177	80	n/a	beijing750	Beijing Tiantan Hospital	GE	MR750	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	Yazhuo Kong
 sub-beijingPrisma01	F	22	166	66	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
-sub-beijingPrisma02	F	22	166	66	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Yazhuo Kong
-sub-beijingPrisma03	F	34	163	60	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Yazhuo Kong
-sub-beijingPrisma04	F	26	158	73	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Yazhuo Kong
-sub-beijingPrisma05	M	27	173	75	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Yazhuo Kong
+sub-beijingPrisma02	F	22	166	66	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma03	F	34	163	60	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma04	F	26	158	73	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
+sub-beijingPrisma05	M	27	173	75	n/a	beijingPrisma	Beijing Tiantan Hospital	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Yazhuo Kong
 sub-beijingVerio01	F	24	161	43	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
-sub-beijingVerio02	F	23	163	55	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B20	Yazhuo Kong
-sub-beijingVerio03	M	30	173	70	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B21	Yazhuo Kong
-sub-beijingVerio04	M	56	177	80	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B22	Yazhuo Kong
+sub-beijingVerio02	F	23	163	55	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
+sub-beijingVerio03	M	30	173	70	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
+sub-beijingVerio04	M	56	177	80	n/a	beijingVerio	Beijing Tiantan Hospital	Siemens	Verio	NeckMatrix	syngo_MR_B19	Yazhuo Kong
 sub-brnoCeitec01	M	32	187	92	2019-02-04	brnoCeitec	CEITEC (Central European Institute of Technology), University Hospital Olomouc	Siemens	Prisma	HeadNeck_64	syngo MR E11	T. Horak, P. Kudlicka, J. Valosek
 sub-brnoCeitec02	F	27	163	56	2019-03-12	brnoCeitec	CEITEC (Central European Institute of Technology), University Hospital Olomouc	Siemens	Prisma	HeadNeck_64	syngo MR E11	T. Horak, P. Kudlicka, J. Valosek
 sub-brnoCeitec03	M	28	186	84	2019-03-12	brnoCeitec	CEITEC (Central European Institute of Technology), University Hospital Olomouc	Siemens	Prisma	HeadNeck_64	syngo MR E11	T. Horak, P. Kudlicka, J. Valosek
@@ -71,11 +71,11 @@ sub-fslAchieva04	F	26	168	63	2019-03-29	fslAchieva	Santa Lucia Foundation IRCCS,
 sub-fslAchieva05	F	35	158	58	2019-04-10	fslAchieva	Santa Lucia Foundation IRCCS, Rome, Italy	Philips	Achieva	n/a	5.4.1_5.4.1.1	Michela Fratini
 sub-fslAchieva06	M	32	165	55	2019-04-11	fslAchieva	Santa Lucia Foundation IRCCS, Rome, Italy	Philips	Achieva	n/a	5.4.1_5.4.1.1	Michela Fratini
 sub-fslPrisma01	M	36	175	70	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
-sub-fslPrisma02	M	50	170	81	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E12	Michela Fratini
-sub-fslPrisma03	F	25	164	46	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E13	Michela Fratini
-sub-fslPrisma04	F	29	148	47	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E14	Michela Fratini
-sub-fslPrisma05	F	26	160	49	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E15	Michela Fratini
-sub-fslPrisma06	M	33	183	84	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E16	Michela Fratini
+sub-fslPrisma02	M	50	170	81	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma03	F	25	164	46	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma04	F	29	148	47	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma05	F	26	160	49	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
+sub-fslPrisma06	M	33	183	84	n/a	fslPrisma	Santa Lucia Foundation IRCCS, Rome, Italy	Siemens	Prisma	HeadNeck_64	syngo_MR_E11	Michela Fratini
 sub-geneva01	M	29	189	69	2019-02-21	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	K. Kinany, L. Mattera
 sub-geneva02	M	36	180	89	2019-02-14	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	K. Kinany, L. Mattera
 sub-geneva03	M	27	175	78	2019-03-04	geneva	Campus Biotech Geneva	Siemens	Prisma	64ch+spine	VE11C	K. Kinany, L. Mattera
