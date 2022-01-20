@@ -200,7 +200,6 @@ sub-tehranS03	F	30	170	65	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Sieme
 sub-tehranS04	F	33	159	54	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
 sub-tehranS05	M	23	174	72	2019-02-27	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
 sub-tehranS06	M	30	183	81	2019-02-16	tehran	National_Brain_Mappin_Lab_Iran	Siemens	Prisma-fit	64Ch+Spine	VE11B	A. Khatibi
-
 sub-tokyo750w01	M	36	177	70	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
 sub-tokyo750w02	M	36	168	80	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
 sub-tokyo750w03	M	32	162	57	2019-10-01	tokyo750w	the University of Tokyo	GE	MR750w	n/a	24_LX_MR_Software_release:DV24.0_R01_1344.a	K. Kamiya, Y. Suzuki
