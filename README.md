@@ -33,6 +33,7 @@ Then this will download the dataset:
 ```
 git clone https://github.com/spine-generic/data-multi-subject && \
 cd data-multi-subject && \
+git annex init && \
 git annex get .
 ```
 
