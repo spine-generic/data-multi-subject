@@ -93,7 +93,7 @@ jobs:
 
     - name: Download dataset
       run: |
-        git fetch --depth=1 origin git-annex:git-annex # CI does a shallow checkout, so it is missing this important branch
+        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v2 does a shallow checkout, so it is missing this important branch
         git annex init
         git annex get -J8
 
