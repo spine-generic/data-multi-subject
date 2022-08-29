@@ -55,7 +55,14 @@ See more at [the official documentation](https://git-annex.branchable.com/walkth
 
 > ⚠️ For advanced users only. Normally the instructions under [Download](#Download) should be enough.
 
-If you have forked this repository on Github (so that you have a copy `your-user-name/data-multi-subject` of `spine-generic/data-multi-subject`), you will need to take a few extra synchronization steps to get the latest data with `git annex get`.
+If you have forked this repository on Github (so that you have a copy `your-user-name/data-multi-subject` of `spine-generic/data-multi-subject`), you will need to take a few extra synchronization steps to get the latest data with `git annex get`. Otherwise, you may get an error message like:
+```
+get some-file-name.nii.gz (not available)
+  No other repository is known to contain the file.
+
+  (Note that these git remotes have annex-ignore set: origin)
+failed
+```
 
 1. In your local clone of `your-user-name/data-multi-subject`, make sure that `spine-generic/data-multi-subject` is also configured as a remote:
    ```
@@ -67,11 +74,13 @@ If you have forked this repository on Github (so that you have a copy `your-user
    If `spine-generic/data-multi-subject` is missing, you can add it with:
    ```
    git remote add upstream https://github.com/spine-generic/data-multi-subject.git
+   git config remote.upstream.annex-readonly true
    ```
 
 2. Then, to update your local clone, make sure to fetch the `git-annex` branch from `spine-generic/data-multi-subject` before running `git annex get`:
    ```
-   git fetch upstream && git pull && git annex get .
+   git fetch upstream +refs/heads/git-annex:refs/remotes/upstream/git-annex
+   git pull && git annex get .
    ```
 
 ## Analysis
