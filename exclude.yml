@@ -55,3 +55,26 @@ dti_rd:
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
+brain_t1:
+- sub-barcelona01  # wrong FOV placement
+- sub-barcelona02  # wrong FOV placement
+- sub-barcelona03  # wrong FOV placement
+- sub-barcelona04  # wrong FOV placement
+- sub-barcelona05  # wrong FOV placement
+- sub-barcelona06  # wrong FOV placement
+- sub-beijingGE01  # signal loss in superior brain
+- sub-beijingGE02  # signal loss in superior brain
+- sub-beijingGE03  # signal loss in superior brain
+- sub-beijingGE04  # signal loss in superior brain
+- sub-beijingPrisma01  # wrong FOV placement
+- sub-beijingPrisma02  # wrong FOV placement
+- sub-beijingPrisma03  # wrong FOV placement
+- sub-beijingPrisma04  # wrong FOV placement
+- sub-beijingPrisma05  # wrong FOV placement
+- sub-fslAchieva06  # wrong FOV placement
+- sub-milan01  # wrong FOV placement
+- sub-milan02  # wrong FOV placement
+- sub-milan03  # wrong FOV placement
+- sub-milan04  # wrong FOV placement
+- sub-nwu01  # wrong FOV placement
+- sub-ucdavis07  # wrong FOV placement
