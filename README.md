@@ -87,6 +87,10 @@ failed
 
 The instructions to process this dataset are available in the [spine-generic documentation](https://spine-generic.readthedocs.io/en/latest/analysis-pipeline.html).
 
+## Help
+
+If you have problems downloading the dataset, please post an [issue](https://github.com/spine-generic/data-multi-subject/issues). Document your steps as much as possible and copy/paste the content of your Terminal.
+
 ## Contributing
 
 If you wish to contribute to this dataset please see [the wiki](https://github.com/spine-generic/spine-generic/wiki/git-annex). Thank you for your contribution 🎉 
