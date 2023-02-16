@@ -99,7 +99,8 @@ jobs:
 
     - name: Checking BIDS compliance
       run: bids-validator --verbose ./
-    - name: Checking acquisition parameters
-      run: sg_params_checker -path-in ./
+    # This check is disabled until we fix https://github.com/spine-generic/spine-generic/issues/264
+    #- name: Checking acquisition parameters
+    #  run: sg_params_checker -path-in ./
     - name: Checking data consistency
       run: sg_check_data_consistency -path-in ./
