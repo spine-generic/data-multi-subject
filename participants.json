@@ -57,7 +57,7 @@
         "Levels": {
             "HC": "Healthy Control",
             "DCM": "Degenerative Cervical Myelopathy (synonymous with CSM - Cervical Spondylotic Myelopathy)",
-            "MildCompression": "Asymptomatic cord compression, without myelopathy",
+            "MildCompression": "Asymptomatic cord compression, without myelopathy"
             }
     },
     "notes": {
