@@ -56,6 +56,7 @@ dti_rd:
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
 brain_t1:
+- sub-balgrist04  # motion artifacts
 - sub-barcelona01  # wrong FOV placement
 - sub-barcelona02  # wrong FOV placement
 - sub-barcelona03  # wrong FOV placement
@@ -71,10 +72,15 @@ brain_t1:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-beijingPrisma04  # wrong FOV placement
 - sub-beijingPrisma05  # wrong FOV placement
+- sub-beijingVerio01  # severe brain cut off after defacing
 - sub-fslAchieva06  # wrong FOV placement
 - sub-milan01  # wrong FOV placement
 - sub-milan02  # wrong FOV placement
 - sub-milan03  # wrong FOV placement
 - sub-milan04  # wrong FOV placement
+- sub-milan07  # severe brain cut off after defacing
 - sub-nwu01  # wrong FOV placement
+- sub-ucdavis01  # severe brain cut off after defacing
+- sub-ucdavis02  # severe brain cut off after defacing
+- sub-ucdavis06  # severe brain cut off after defacing
 - sub-ucdavis07  # wrong FOV placement
