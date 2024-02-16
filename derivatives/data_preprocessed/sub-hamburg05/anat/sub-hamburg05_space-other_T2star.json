@@ -75,5 +75,9 @@
     "InPlanePhaseEncodingDirectionDICOM": "COL",
     "ConversionSoftware": "dcm2niix",
     "ConversionSoftwareVersion": "v1.0.20181125  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0",
-    "AcquisitionDuration": 285.0
+    "AcquisitionDuration": 285.0,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
 }

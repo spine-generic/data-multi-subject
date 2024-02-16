@@ -1,7 +1,10 @@
 {
-	"FlipAngle": 15,
-	"EchoTime": 0.002001,
-	"RepetitionTime": 0.015,
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20181125  GCC4.9.2"
+    "FlipAngle": 15,
+    "EchoTime": 0.002001,
+    "RepetitionTime": 0.015,
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20181125  GCC4.9.2",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
 }

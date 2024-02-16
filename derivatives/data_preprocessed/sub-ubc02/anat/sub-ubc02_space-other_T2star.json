@@ -59,5 +59,9 @@
     "ConversionSoftware": "dcm2niix",
     "ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0",
     "Dcm2bidsVersion": "2.1.4",
-    "AcquisitionDuration": 270.8
+    "AcquisitionDuration": 270.8,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
 }

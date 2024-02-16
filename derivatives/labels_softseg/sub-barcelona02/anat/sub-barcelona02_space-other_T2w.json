@@ -1,4 +1,8 @@
 {
     "Author": "Sandrine Bedard",
-    "Date": "2021-09-05 18:49:36"
+    "Date": "2021-09-05 18:49:36",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
 }

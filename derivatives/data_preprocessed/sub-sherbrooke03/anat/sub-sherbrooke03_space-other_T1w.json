@@ -1,13 +1,24 @@
 {
-	"Manufacturer": "Philips",
-	"ManufacturersModelName": "Ingenia",
-	"ProtocolName": "WIP_T1w",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "FFE", "M", "FFE"],
-	"AcquisitionDateTime": "2019-01-10T10:46:32.218750",
-	"MagneticFieldStrength": 3,
-	"FlipAngle": 9,
-	"EchoTime": 0.003532,
-	"RepetitionTime": 0.0077372,
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20170130 (openJPEG build)"
+    "Manufacturer": "Philips",
+    "ManufacturersModelName": "Ingenia",
+    "ProtocolName": "WIP_T1w",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "FFE",
+        "M",
+        "FFE"
+    ],
+    "AcquisitionDateTime": "2019-01-10T10:46:32.218750",
+    "MagneticFieldStrength": 3,
+    "FlipAngle": 9,
+    "EchoTime": 0.003532,
+    "RepetitionTime": 0.0077372,
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20170130 (openJPEG build)",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
 }

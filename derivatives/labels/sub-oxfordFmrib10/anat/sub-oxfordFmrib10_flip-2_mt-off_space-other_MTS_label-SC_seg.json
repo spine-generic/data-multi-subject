@@ -1,4 +1,7 @@
 {
     "Author": "Sandrine Bedard",
-    "Date": "2022-10-06 10:09:27"
+    "Date": "2022-10-06 10:09:27",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
 }

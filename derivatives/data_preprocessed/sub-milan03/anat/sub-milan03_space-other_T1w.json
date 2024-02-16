@@ -1,16 +1,27 @@
 {
-	"Manufacturer": "Siemens",
-	"ManufacturersModelName": "Prisma",
-	"ProcedureStepDescription": "spine_generic",
-	"ProtocolName": "T1w",
-	"SequenceName": "_tfl3d1_16",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "NORM", "DIS3D", "DIS2D"],
-	"AcquisitionDateTime": "2018-12-20T11:07:2.031250",
-	"MagneticFieldStrength": 3,
-	"FlipAngle": 9,
-	"EchoTime": 0.00372,
-	"RepetitionTime": 2,
-	"PhaseEncodingDirection": "i-",
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20170207"
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "ProcedureStepDescription": "spine_generic",
+    "ProtocolName": "T1w",
+    "SequenceName": "_tfl3d1_16",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "NORM",
+        "DIS3D",
+        "DIS2D"
+    ],
+    "AcquisitionDateTime": "2018-12-20T11:07:2.031250",
+    "MagneticFieldStrength": 3,
+    "FlipAngle": 9,
+    "EchoTime": 0.00372,
+    "RepetitionTime": 2,
+    "PhaseEncodingDirection": "i-",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20170207",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
 }
