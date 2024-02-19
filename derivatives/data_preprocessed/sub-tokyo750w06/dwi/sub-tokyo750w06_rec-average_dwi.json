@@ -1,0 +1,9 @@
+{
+    "GeneratedBy": [
+        {
+            "Name": "sct_dmri_moco",
+            "Version": "SCT v6.1",
+            "Description": "Mean image across directions after motion correction"
+        }
+    ]
+}
