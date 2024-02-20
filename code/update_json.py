@@ -15,21 +15,24 @@ def get_parser():
     return parser
 
 
-def create_json_file(nii_gz_files):
+def create_json_file(nii_gz_files, resampling_factor):
     """Creates a JSON file listing all .nii.gz files and includes the resampling factor.
 
     Args:
         nii_gz_files (list): A list of paths to .nii.gz files.
     """
     data = {
-        "SpatialReference": {
-            "Orientation": "RPI"
-        },
+        #"SpatialReference": {
+        #     "Orientation": "RPI",
+         #    "Resampling": resampling_factor,
+        # },
         "GeneratedBy":[
         {
-            "Name": "sct_register_multimodal",
+            "Name": "sct_dmri_moco",
             "Version": "SCT v6.1",
-            "Description": "Warp from T2w discs labels"
+            #"Author": "Paul Bautin",
+            #"Date": "2020-07-30 11:57:54",
+            "Description": "Mean image across directions after motion correction"
         }]
     }
     for file in nii_gz_files:
@@ -50,7 +53,7 @@ def add_spatial_reference(file_path, resampling_factor):
 
         # Add the "SpatialReference" field
         data["SpatialReference"] = {
-           # "Resampling": resampling_factor,
+           "Resampling": resampling_factor,
             "Reorientation": "RPI",
             "Other": "root-mean square across 4th dimension (if it exists)"
         }
@@ -75,7 +78,7 @@ def find_nii_gz_files(directory):
     nii_gz_files = []
     for root, _, files in os.walk(directory):
         for file in files:
-            if ('label-discs_desc-warp_dlabel.nii.gz' in file):
+            if ('rec-average_dwi.nii.gz' in file):
                 nii_gz_files.append(os.path.join(root, file))
     
     return nii_gz_files
@@ -89,7 +92,7 @@ def process_directory(directory, resampling_factor):
     """
     for root, _, files in os.walk(directory):
         for file in files:
-            if ('T2star' in file) and ('.json' in file):
+            if ('T2w' in file) and ('.json' in file):
                 file_path = os.path.join(root, file)
                 add_spatial_reference(file_path, resampling_factor)
                 print(f"Updated {file_path}")
@@ -99,7 +102,7 @@ def main():
     args = parser.parse_args()
     #process_directory(args.d, args.r)
     nii_gz_files = find_nii_gz_files(args.d)
-    create_json_file(nii_gz_files)
+    create_json_file(nii_gz_files, args.r)
 
 if __name__ == "__main__":
     main()
