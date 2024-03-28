@@ -1,0 +1,50 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY_MR750",
+    "InstitutionName": "Stanford_Lucas_Center",
+    "DeviceSerialNumber": "0000415723SCHMR2",
+    "StationName": "lc3t3",
+    "BodyPartExamined": "NECK",
+    "PatientPosition": "HFS",
+    "SoftwareVersions": "27_LX_MR_Software_release:DV26.0_R01_1725.a",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "ORIG_GRE-T1w",
+    "ProtocolName": "ORIG_GRE-T1w",
+    "ScanningSequence": "GR",
+    "SequenceVariant": "SS_SP",
+    "ScanOptions": "EDR_GEMS_PFF",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 40009,
+    "AcquisitionTime": "19:06:18.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 5,
+    "SpacingBetweenSlices": 5,
+    "SAR": 0.0285727,
+    "EchoTime": 0.004,
+    "RepetitionTime": 0.015,
+    "FlipAngle": 15,
+    "PercentPhaseFOV": 100,
+    "AcquisitionMatrixPE": 192,
+    "ReconMatrixPE": 192,
+    "PixelBandwidth": 434.062,
+    "ImageOrientationPatientDICOM": [
+        0.99902,
+        0,
+        0.04432,
+        -0.00631,
+        0.9898,
+        0.14231
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "COL",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20171215 (OpenJPEG build) GCC7.3.0",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
+}

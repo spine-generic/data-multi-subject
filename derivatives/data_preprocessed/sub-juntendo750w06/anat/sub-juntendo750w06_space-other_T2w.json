@@ -1,0 +1,52 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY_MR750w",
+    "InstitutionName": "JUNTENDO_UNV_HP",
+    "DeviceSerialNumber": "0000000000EM0236",
+    "StationName": "GEMR750W",
+    "BodyPartExamined": "CSPINE",
+    "PatientPosition": "HFS",
+    "SoftwareVersions": "27_LX_MR_Software_release:DV26.0_R02_1810.b",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "T2w",
+    "ProtocolName": "T2w",
+    "ScanningSequence": "SE",
+    "SequenceVariant": "SK_OSP",
+    "ScanOptions": "FC_FREQ_AX_GEMS_FC_NPW_EDR_GEMS_FILTERED_GEMS_ACC_GEMS",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 6,
+    "AcquisitionTime": "18:21:33.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 0.8,
+    "SpacingBetweenSlices": 0.8,
+    "SAR": 0.3145,
+    "EchoTime": 0.13468,
+    "RepetitionTime": 2.502,
+    "FlipAngle": 90,
+    "PercentPhaseFOV": 100,
+    "EchoTrainLength": 78,
+    "AcquisitionMatrixPE": 320,
+    "ReconMatrixPE": 320,
+    "PixelBandwidth": 520.812,
+    "ImageOrientationPatientDICOM": [
+        0.06372,
+        0.99797,
+        -0.00034,
+        0.05321,
+        -0.00374,
+        -0.99858
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20171215 (OpenJPEG build) Clang8.1.0",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

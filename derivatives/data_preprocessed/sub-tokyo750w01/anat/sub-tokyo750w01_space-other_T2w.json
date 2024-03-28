@@ -1,0 +1,53 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "ImagingFrequency": 127.771,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY_MR750w",
+    "InstitutionName": "TOKYO_UNIV_HOSPITAL",
+    "DeviceSerialNumber": "0000000000EM0204",
+    "StationName": "MRX07",
+    "PatientPosition": "HFS",
+    "SoftwareVersions": "24_LX_MR_Software_release:DV24.0_R01_1344.a",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "T2w",
+    "ProtocolName": "T2w",
+    "ScanningSequence": "SE",
+    "SequenceVariant": "SK_OSP",
+    "ScanOptions": "FC_FREQ_AX_GEMS_FC_NPW_EDR_GEMS_FILTERED_GEMS_ACC_GEMS",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 5,
+    "AcquisitionTime": "18:54:2.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 0.8,
+    "SpacingBetweenSlices": 0.8,
+    "SAR": 0.522791,
+    "EchoTime": 0.128286,
+    "RepetitionTime": 2.52,
+    "FlipAngle": 90,
+    "CoilString": "Head+Neck_40",
+    "PercentPhaseFOV": 100,
+    "EchoTrainLength": 78,
+    "AcquisitionMatrixPE": 320,
+    "ReconMatrixPE": 320,
+    "PixelBandwidth": 520.812,
+    "ImageOrientationPatientDICOM": [
+        8.66875e-05,
+        0.999997,
+        -0.00232482,
+        0.0432856,
+        -0.00232637,
+        -0.99906
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20181125  Clang10.0.0",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

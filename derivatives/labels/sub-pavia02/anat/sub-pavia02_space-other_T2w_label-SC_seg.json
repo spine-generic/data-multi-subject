@@ -1,0 +1,8 @@
+{
+    "Author": "Yassine El Bouchaibi",
+    "Date": "2021-06-30 22:02:30",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

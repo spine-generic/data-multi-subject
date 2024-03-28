@@ -1,0 +1,8 @@
+{
+    "Author": "olivier morin-lupien",
+    "Date": "2021-06-21 16:49:43",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

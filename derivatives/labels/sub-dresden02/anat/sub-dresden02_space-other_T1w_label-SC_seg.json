@@ -1,0 +1,8 @@
+{
+    "Author": "Etienne Bergeron",
+    "Date": "2021-06-25 15:50:21",
+    "SpatialReference": {
+        "Resampling": "1x1x1",
+        "Reorientation": "RPI"
+    }
+}

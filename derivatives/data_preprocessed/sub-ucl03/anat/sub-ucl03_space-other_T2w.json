@@ -1,0 +1,12 @@
+{
+    "FlipAngle": 90,
+    "EchoTime": 0.12,
+    "RepetitionTime": 3.5,
+    "PhaseEncodingDirection": "i-,j-",
+    "ConversionSoftware": "dcm2nii",
+    "ConversionSoftwareVersion": "4AUGUST2014 64bit BSD License",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}
