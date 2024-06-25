@@ -1,0 +1,28 @@
+
+name: Lint participants.tsv file
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  lint-participants:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        # make sure to download directly from the PR's repo, whether that is this repo or a fork
+        # By default github generates a merge commit for each PR in this repo, but only for the one branch under test
+        # but `git-annex` needs access to *two* branches: the current branch and `git-annex`
+        # this might be subtly buggy since it is testing the remote version, not the merged version
+        #
+        # *if* this is not a pull request, this will fall back to its default behaviour.
+        repository: ${{github.event.pull_request.head.repo.full_name}}
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Lint participants.tsv
+      run: .github/workflows/lint-tsv participants.tsv

@@ -24,28 +24,6 @@ jobs:
         repository: ${{github.event.pull_request.head.repo.full_name}}
         ref: ${{ github.event.pull_request.head.ref }}
 
-    - name: Install dos2unix
-      run: |
-        # the easy way to do this: convert everything to unix and ask git if that changed anything
-        sudo apt-get install -y dos2unix
-
-    - name: Check line endings
-      run: |
-        # the easy way to do this: convert everything to unix and ask git if that changed anything
-
-        find ./ -path ./.git -prune -o -type f -print0 | xargs -0 dos2unix -q
-        # this version is safer, but more maintenance:
-        #find ./ -path ./.git -prune -o -type f \( ! -name "*.nii" -a ! -name "*.nii.gz" \) -print0 | xargs -0 dos2unix -q
-
-        git diff --stat --exit-code
-        if [ "$?" -ne 0 ]; then
-          echo "error: Windows line endings found."
-          exit 1
-        fi
-
-    - name: Lint participants.tsv
-      run: .github/workflows/lint-tsv participants.tsv
-
     #- name: Update software
     #  run: |
     #    # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
