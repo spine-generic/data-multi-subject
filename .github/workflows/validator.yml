@@ -34,12 +34,12 @@ jobs:
         repository: ${{github.event.pull_request.head.repo.full_name}}
         ref: ${{ github.event.pull_request.head.ref }}
 
-    #- name: Update software
-    #  run: |
-    #    # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
-    #    sudo apt-get update &&
-    #    sudo DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade &&
-    #    sudo DEBIAN_FRONTEND=noninteractive apt-get autoremove
+    - name: Update apt packages
+      run: |
+        # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
+        sudo apt-get update &&
+        sudo DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade &&
+        sudo DEBIAN_FRONTEND=noninteractive apt-get autoremove
 
     - name: Install git-annex
       run: |
