@@ -23,7 +23,7 @@ jobs:
         swap-size-mb: 1024
 
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         # make sure to download directly from the PR's repo, whether that is this repo or a fork
         # By default github generates a merge commit for each PR in this repo, but only for the one branch under test
@@ -54,7 +54,7 @@ jobs:
       run: sudo npm install -g bids-validator
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: 3.11
 
@@ -73,7 +73,7 @@ jobs:
 
     - name: Download dataset
       run: |
-        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v2 does a shallow checkout, so it is missing this important branch
+        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v4 does a shallow checkout, so it is missing this important branch
         git annex init
         git annex get -J8
 
