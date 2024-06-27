@@ -1,0 +1,8 @@
+{
+    "Author": "Sandrine Bedard",
+    "Date": "2021-07-25 12:24:37",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

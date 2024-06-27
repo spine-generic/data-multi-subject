@@ -1,0 +1,8 @@
+{
+    "Author": "Benjamin Carrier",
+    "Date": "2021-07-12 16:38:41",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

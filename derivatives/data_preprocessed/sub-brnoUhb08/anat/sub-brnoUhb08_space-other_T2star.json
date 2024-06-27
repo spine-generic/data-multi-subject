@@ -1,0 +1,53 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "SIGNA_PET_MR",
+    "InstitutionName": "FN_Brno",
+    "DeviceSerialNumber": "000000CS1013MR01",
+    "StationName": "PETMR",
+    "PatientPosition": "HFS",
+    "SoftwareVersions": "26_LX_MR_Software_release:MP24.0_R03_1712.b",
+    "MRAcquisitionType": "2D",
+    "SeriesDescription": "GRE-ME",
+    "ProtocolName": "GRE-ME",
+    "ScanningSequence": "GR",
+    "SequenceVariant": "SS_SK",
+    "ScanOptions": "FAST_GEMS_FC_SAT_GEMS_EDR_GEMS_FILTERED_GEMS_ACC_GEMS_SP",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 9,
+    "AcquisitionTime": "16:37:51.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 5,
+    "SpacingBetweenSlices": 5,
+    "SAR": 0.243787,
+    "EchoTime": 0.014732,
+    "RepetitionTime": 0.6,
+    "FlipAngle": 30,
+    "PercentPhaseFOV": 100,
+    "EchoTrainLength": 3,
+    "AcquisitionMatrixPE": 448,
+    "ReconMatrixPE": 512,
+    "PixelBandwidth": 244.141,
+    "PhaseEncodingAxis": "j",
+    "ImageOrientationPatientDICOM": [
+        0.999679,
+        0,
+        0.0253235,
+        -0.00495662,
+        0.980658,
+        0.195669
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "COL",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20180622 (JP2:OpenJPEG) GCC6.1.0",
+    "AcquisitionDuration": 288.0,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
+}
