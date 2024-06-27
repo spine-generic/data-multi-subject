@@ -78,8 +78,24 @@ jobs:
         git annex get -J8
 
     - name: Checking BIDS compliance
-      run: bids-validator --verbose ./
+      if: always()
+      run: |
+        bids-validator --verbose ./ | tee bids.txt
+        printf "\nShort summary:\n\n"
+        # FIXME: This should be replaced with bids-validator settings: A) throw error on warning or B) warning ignores
+        ! grep "\[WARN\]\|\[ERR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
+
     - name: Checking acquisition parameters
-      run: sg_params_checker -path-in ./
+      if: always()
+      run: |
+        sg_params_checker -path-in ./ | tee params.txt
+        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+        ! grep "WARNING" params.txt  # ! -> Reverse error code so "found == error thrown"
+
     - name: Checking data consistency
-      run: sg_check_data_consistency -path-in ./
+      if: always()
+      run: |
+        sg_check_data_consistency -path-in ./ | tee consistency.txt
+        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+        ! grep "Warning\|Missing" consistency.txt
+        grep "all good" consistency.txt
