@@ -56,7 +56,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: 3.11
 
     - name: Install spine-generic for acquisition parameters check
       run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
