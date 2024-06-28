@@ -1,0 +1,21 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_apply_transfo",
+            "Version": "SCT v6~",
+            "Date": "2024-03-19 14:10:05",
+            "Description": "Subject registration to the PAM50 template then reverse transformation applied to the template to bring the segmentations/atlas to the subject space. see https://github.com/neuropoly/totalspineseg/blob/main/run/reg2pam50.sh"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Yehuda Warszawer",
+            "Date": "2024-03-19 14:10:05"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Nathan Molinier",
+            "Date": "2024-06-26 14:10:24"
+        }
+    ]
+}
