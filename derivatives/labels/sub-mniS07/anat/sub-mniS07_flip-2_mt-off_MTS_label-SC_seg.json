@@ -1,7 +1,17 @@
 {
-    "Author": "Benjamin Carrier",
-    "Date": "2021-07-14 14:13:48",
-    "SpatialReference": {
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Benjamin Carrier",
+            "Date": "2021-07-14 14:13:48"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

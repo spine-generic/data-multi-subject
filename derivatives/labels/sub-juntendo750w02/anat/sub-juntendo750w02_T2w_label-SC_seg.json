@@ -1,8 +1,24 @@
 {
-    "Author": "Benjamin Carrier",
-    "Date": "2021-07-13 15:35:52",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Benjamin Carrier",
+            "Date": "2021-07-13 15:35:52"
+        },
+        {
+            "Name": "sct_resample",
+            "Flags": "-mm",
+            "Resolution": "0.8x0.8x0.8",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

@@ -1,8 +1,24 @@
 {
-    "Author": "olivier ml",
-    "Date": "2021-06-23 16:37:58",
-    "SpatialReference": {
-        "Resampling": "1x1x1",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "olivier ml",
+            "Date": "2021-06-23 16:37:58"
+        },
+        {
+            "Name": "sct_resample",
+            "Flags": "-mm",
+            "Resolution": "1x1x1",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

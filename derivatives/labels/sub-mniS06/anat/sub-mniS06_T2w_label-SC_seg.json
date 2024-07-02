@@ -1,8 +1,24 @@
 {
-    "Author": "Sandrine Bedard",
-    "Date": "2021-06-08 15:06:09",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2021-06-08 15:06:09"
+        },
+        {
+            "Name": "sct_resample",
+            "Flags": "-mm",
+            "Resolution": "0.8x0.8x0.8",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

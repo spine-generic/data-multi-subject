@@ -1,7 +1,17 @@
 {
-    "Author": "Yassine El Bouchaibi",
-    "Date": "2021-07-02 14:40:18",
-    "SpatialReference": {
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Yassine El Bouchaibi",
+            "Date": "2021-07-02 14:40:18"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

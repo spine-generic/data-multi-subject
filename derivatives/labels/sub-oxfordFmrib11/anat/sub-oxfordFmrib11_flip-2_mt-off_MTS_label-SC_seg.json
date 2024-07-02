@@ -1,7 +1,17 @@
 {
-    "Author": "olivier MorinLupien",
-    "Date": "2021-07-05 14:11:32",
-    "SpatialReference": {
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "olivier MorinLupien",
+            "Date": "2021-07-05 14:11:32"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

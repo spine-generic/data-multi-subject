@@ -1,8 +1,24 @@
 {
-    "Author": "Olivier Morin Lupien",
-    "Date": "2021-07-24 10:36:49",
-    "SpatialReference": {
-        "Reorientation": "RPI",
-        "Other": "root-mean square across 4th dimension (if it exists)"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Olivier Morin Lupien",
+            "Date": "2021-07-24 10:36:49"
+        },
+        {
+            "Name": "sct_maths",
+            "Flags": "-rms",
+            "Axis": "t",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        },
+        {
+            "Name": "sct_image",
+            "Flags": "-setorient",
+            "Orientation": "RPI",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
+        }
+    ]
 }

@@ -5,9 +5,17 @@
     },
     "GeneratedBy": [
         {
+            "Name": "Manual",
             "Author": "Paul Bautin",
-            "Date": "2020-07-30 11:57:54",
+            "Date": "2020-07-30 11:57:36",
             "Description": "Manual label of C2 and C5 mid-vertebrae, at the center of the spinal cord."
+        },
+        {
+            "Name": "sct_resample",
+            "Flags": "-mm",
+            "Resolution": "1x1x1",
+            "Version": "SCT v6~",
+            "Date": "2024-02-20 00:00:00"
         }
     ]
 }
