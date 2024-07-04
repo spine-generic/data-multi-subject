@@ -1,4 +1,10 @@
 {
-    "Author": "Jan Valosek",
-    "Date": "2022-12-25 19:22:24"
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Jan Valosek",
+            "Date": "2022-12-25 19:22:24"
+        }
+    ]
 }

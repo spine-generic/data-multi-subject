@@ -1,4 +1,10 @@
 {
-    "Author": "Nathan Molinier",
-    "Date": "2023-05-16 15:43:42"
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Nathan Molinier",
+            "Date": "2023-05-16 15:43:42"
+        }
+    ]
 }
