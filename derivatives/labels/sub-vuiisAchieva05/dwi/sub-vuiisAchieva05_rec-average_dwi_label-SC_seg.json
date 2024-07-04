@@ -1,4 +1,10 @@
 {
-    "Author": "Sandrine Bedard",
-    "Date": "2021-06-08 15:06:26"
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2021-06-08 15:06:26"
+        }
+    ]
 }

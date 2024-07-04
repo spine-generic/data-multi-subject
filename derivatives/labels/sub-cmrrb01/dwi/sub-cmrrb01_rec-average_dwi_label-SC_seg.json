@@ -1,4 +1,10 @@
 {
-    "Author": "Etienne Bergeron",
-    "Date": "2021-06-25 15:23:03"
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Etienne Bergeron",
+            "Date": "2021-06-25 15:23:03"
+        }
+    ]
 }
