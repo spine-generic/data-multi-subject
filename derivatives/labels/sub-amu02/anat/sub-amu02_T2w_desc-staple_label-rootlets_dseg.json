@@ -1,0 +1,11 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "STAPLE",
+            "Description": "Reference ground truth label (created using the STAPLE algorithm) of dorsal rootlets C2-C8 used to test the model M5; details: https://github.com/ivadomed/model-spinal-rootlets/issues/17 and https://github.com/ivadomed/model-spinal-rootlets/pull/23#issuecomment-1836305457",
+            "Date": "2023-12-01"
+        }
+    ]
+}
