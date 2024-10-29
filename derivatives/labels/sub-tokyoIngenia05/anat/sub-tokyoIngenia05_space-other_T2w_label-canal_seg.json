@@ -1,11 +1,12 @@
 {
     "SpatialReference": {
-        "Orientation": "RPI",
-        "Resampling": "0.8x0.8x0.8"
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
     },
     "GeneratedBy": [
         {
-            "Description": "Created from label-CSF_seg"
+            "Author": "William Sirois",
+            "Date": "2024-03-17 00:00:00"
         }
     ]
 }

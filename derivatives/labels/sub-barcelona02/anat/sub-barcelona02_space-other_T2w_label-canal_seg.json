@@ -1,0 +1,15 @@
+{
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    },
+    "GeneratedBy": [
+        {
+            "Author": "William Sirois"
+        },
+        {
+            "Author": "Sandrine Bedard",
+            "Date": "2024-08-12 00:00:00"
+        }
+    ]
+}
