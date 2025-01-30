@@ -1,0 +1,27 @@
+{
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "ProcedureStepDescription": "STANDARD_ENCEFALO_MIDOLLO",
+    "ProtocolName": "T2w",
+    "SequenceName": "_spcR_100",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "NORM",
+        "DIS3D",
+        "DIS2D"
+    ],
+    "AcquisitionDateTime": "2018-12-18T14:21:46.046875",
+    "MagneticFieldStrength": 3,
+    "FlipAngle": 120,
+    "EchoTime": 0.12,
+    "RepetitionTime": 1.5,
+    "PhaseEncodingDirection": "j-",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20170207",
+    "SpatialReference": {
+        "Resampling": "0.8x0.8x0.8",
+        "Reorientation": "RPI"
+    }
+}

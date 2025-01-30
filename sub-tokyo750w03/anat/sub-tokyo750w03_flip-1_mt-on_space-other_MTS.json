@@ -1,0 +1,51 @@
+{
+    "Modality": "MR",
+    "MagneticFieldStrength": 3,
+    "ImagingFrequency": 127.771,
+    "Manufacturer": "GE",
+    "ManufacturersModelName": "DISCOVERY_MR750w",
+    "InstitutionName": "TOKYO_UNIV_HOSPITAL",
+    "DeviceSerialNumber": "0000000000EM0204",
+    "StationName": "MRX07",
+    "PatientPosition": "HFS",
+    "SoftwareVersions": "24_LX_MR_Software_release:DV24.0_R01_1344.a",
+    "MRAcquisitionType": "3D",
+    "SeriesDescription": "GRE-MT1",
+    "ProtocolName": "GRE-MT1",
+    "ScanningSequence": "GR",
+    "SequenceVariant": "SS_SP",
+    "ScanOptions": "EDR_GEMS_MT_GEMS_FILTERED_GEMS_PFF",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "OTHER"
+    ],
+    "SeriesNumber": 9,
+    "AcquisitionTime": "20:03:15.000000",
+    "AcquisitionNumber": 1,
+    "SliceThickness": 5,
+    "SpacingBetweenSlices": 5,
+    "SAR": 0.754839,
+    "EchoTime": 0.004,
+    "RepetitionTime": 0.035,
+    "FlipAngle": 9,
+    "CoilString": "Head+Neck_40",
+    "PercentPhaseFOV": 100,
+    "AcquisitionMatrixPE": 192,
+    "ReconMatrixPE": 192,
+    "PixelBandwidth": 434.062,
+    "ImageOrientationPatientDICOM": [
+        0.999796,
+        0.000903311,
+        0.0201589,
+        -0.00382647,
+        0.989359,
+        0.145443
+    ],
+    "InPlanePhaseEncodingDirectionDICOM": "ROW",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20181125  Clang10.0.0",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
+}
