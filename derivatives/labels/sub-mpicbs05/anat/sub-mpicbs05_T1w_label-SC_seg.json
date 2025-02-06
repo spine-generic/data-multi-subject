@@ -1,8 +1,14 @@
 {
-    "Author": "olivier morin-lupien",
-    "Date": "2021-06-21 16:53:41",
-    "SpatialReference": {
-        "Resampling": "1x1x1",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "olivier morin-lupien",
+            "Date": "2021-06-21 16:53:41"
+        }
+    ]
 }

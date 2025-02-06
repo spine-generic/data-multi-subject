@@ -1,8 +1,10 @@
 {
-    "Author": "Sandrine Bedard",
-    "Date": "2022-10-22 14:36:45",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2022-10-22 14:36:45"
+        }
+    ]
 }

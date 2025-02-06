@@ -1,8 +1,10 @@
 {
-    "Author": "Sandrine Bedard",
-    "Date": "2022-10-22 14:36:17",
-    "SpatialReference": {
-        "Reorientation": "RPI",
-        "Other": "root-mean square across 4th dimension (if it exists)"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2022-10-22 14:36:17"
+        }
+    ]
 }

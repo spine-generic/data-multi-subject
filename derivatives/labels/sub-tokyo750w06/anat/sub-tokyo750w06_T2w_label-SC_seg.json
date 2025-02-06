@@ -1,8 +1,14 @@
 {
-    "Author": "Paul Bautin",
-    "Date": "2020-07-29 15:13:23",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Paul Bautin",
+            "Date": "2020-07-29 15:13:23"
+        }
+    ]
 }

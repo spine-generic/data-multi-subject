@@ -1,8 +1,14 @@
 {
-    "Author": "olivier morinlupien",
-    "Date": "2021-06-21 12:53:55",
-    "SpatialReference": {
-        "Reorientation": "RPI",
-        "Other": "root-mean square across 4th dimension (if it exists)"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "olivier morinlupien",
+            "Date": "2021-06-21 12:53:55"
+        }
+    ]
 }

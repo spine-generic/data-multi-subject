@@ -1,10 +1,10 @@
 {
-    "SpatialReference": {
-        "Orientation": "RPI",
-        "Resampling": "1x1x1"
-    },
+    "SpatialReference": "orig",
     "GeneratedBy": [
         {
+            "Name": "Manual",
+            "Author": "Paul Bautin",
+            "Date": "2020-07-30 11:57:36",
             "Description": "Manual label of C2 and C5 mid-vertebrae, at the center of the spinal cord."
         }
     ]

@@ -1,7 +1,10 @@
 {
-    "author": "Charley Gros",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Charley Gros",
+            "Date": "YYYY-MM-DD 00:00:00"
+        }
+    ]
 }

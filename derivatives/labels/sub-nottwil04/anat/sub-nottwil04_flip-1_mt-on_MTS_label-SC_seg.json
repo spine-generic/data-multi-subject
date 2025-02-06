@@ -1,7 +1,14 @@
 {
-    "Author": "Olivier MorinLupien",
-    "Date": "2021-07-05 13:48:30",
-    "SpatialReference": {
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Olivier MorinLupien",
+            "Date": "2021-07-05 13:48:30"
+        }
+    ]
 }

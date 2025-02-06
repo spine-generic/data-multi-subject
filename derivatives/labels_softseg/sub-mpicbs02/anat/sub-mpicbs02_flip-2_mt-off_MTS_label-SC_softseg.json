@@ -1,7 +1,10 @@
 {
-    "Author": "Sandrine Bedard",
-    "Date": "2022-10-22 14:36:31",
-    "SpatialReference": {
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2022-10-22 14:36:31"
+        }
+    ]
 }

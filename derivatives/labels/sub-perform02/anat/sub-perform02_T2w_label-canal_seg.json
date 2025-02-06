@@ -1,10 +1,8 @@
 {
-    "SpatialReference": {
-        "Orientation": "RPI",
-        "Resampling": "0.8x0.8x0.8"
-    },
+    "SpatialReference": "orig",
     "GeneratedBy": [
         {
+            "Name": "Manual",
             "Description": "Created from label-CSF_seg"
         }
     ]

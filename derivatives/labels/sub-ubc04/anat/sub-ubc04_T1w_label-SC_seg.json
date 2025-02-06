@@ -1,8 +1,14 @@
 {
-    "Author": "Etienne Bergeron",
-    "Date": "2021-07-02 13:39:07",
-    "SpatialReference": {
-        "Resampling": "1x1x1",
-        "Reorientation": "RPI"
-    }
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Etienne Bergeron",
+            "Date": "2021-07-02 13:39:07"
+        }
+    ]
 }
