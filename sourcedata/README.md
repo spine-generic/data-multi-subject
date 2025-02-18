@@ -1,0 +1,1 @@
+The folder `sourcedata` contains all raw images obtained from the differents sites. These images are then preprocessed uisng the `proecss_data.sh` script and the preprocessed images are included in the root.
