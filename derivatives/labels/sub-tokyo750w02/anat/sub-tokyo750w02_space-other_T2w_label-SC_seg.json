@@ -1,8 +1,0 @@
-{
-    "Author": "Paul Bautin",
-    "Date": "2020-07-29 15:02:12",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
-}

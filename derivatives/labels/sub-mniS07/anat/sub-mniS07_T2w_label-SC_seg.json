@@ -1,0 +1,14 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Benjamin Carrier",
+            "Date": "2021-07-14 13:52:26"
+        }
+    ]
+}

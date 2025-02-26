@@ -70,5 +70,8 @@
     "InPlanePhaseEncodingDirectionDICOM": "COL",
     "ConversionSoftware": "dcm2niix",
     "ConversionSoftwareVersion": "v1.0.20190410  Clang4.0.1",
-    "Dcm2bidsVersion": "2.1.4"
+    "Dcm2bidsVersion": "2.1.4",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
 }

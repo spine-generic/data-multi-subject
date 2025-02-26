@@ -1,7 +1,0 @@
-{
-    "author": "Charley Gros",
-    "SpatialReference": {
-        "Resampling": "0.8x0.8x0.8",
-        "Reorientation": "RPI"
-    }
-}
