@@ -1,0 +1,44 @@
+
+name: Check for Windows line endings
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  check-line-endings:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        # make sure to download directly from the PR's repo, whether that is this repo or a fork
+        # By default github generates a merge commit for each PR in this repo, but only for the one branch under test
+        # but `git-annex` needs access to *two* branches: the current branch and `git-annex`
+        # this might be subtly buggy since it is testing the remote version, not the merged version
+        #
+        # *if* this is not a pull request, this will fall back to its default behaviour.
+        repository: ${{github.event.pull_request.head.repo.full_name}}
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Install dos2unix
+      run: |
+        # the easy way to do this: convert everything to unix and ask git if that changed anything
+        sudo apt-get install -y dos2unix
+
+    - name: Check line endings
+      run: |
+        # the easy way to do this: convert everything to unix and ask git if that changed anything
+
+        find ./ -path ./.git -prune -o -type f -print0 | xargs -0 dos2unix -q
+        # this version is safer, but more maintenance:
+        #find ./ -path ./.git -prune -o -type f \( ! -name "*.nii" -a ! -name "*.nii.gz" \) -print0 | xargs -0 dos2unix -q
+
+        git diff --stat --exit-code
+        if [ "$?" -ne 0 ]; then
+          echo "error: Windows line endings found."
+          exit 1
+        fi
