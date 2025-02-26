@@ -1,1 +1,1 @@
-The folder `sourcedata` contains all raw images obtained from the differents sites. These images are then preprocessed uisng the `proecss_data.sh` script and the preprocessed images are included in the root.
+The folder `sourcedata` contains all raw images obtained from the differents sites. These images are then preprocessed using [the `process_data.sh` script](https://github.com/spine-generic/spine-generic/blob/e01bfe43bf81313b8c8713bb46b14c7bab23eb98/process_data.sh) and the preprocessed images are included in the root.
