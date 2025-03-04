@@ -5,5 +5,9 @@
     "PhaseEncodingDirection": "i-,j-",
     "ConversionSoftware": "dcm2nii",
     "ConversionSoftwareVersion": "4AUGUST2014 64bit BSD License",
-    "AcquisitionDuration": 242.5
+    "AcquisitionDuration": 242.5,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
 }

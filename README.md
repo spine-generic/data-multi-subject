@@ -14,7 +14,7 @@ The contributors have the necessary ethics & permissions to share the data publi
 The dataset does not include any identifiable personal health information, including names,
 zip codes, dates of birth, facial features on structural scans.
 
-The entire dataset is about **10GB**.
+The entire dataset is about **26GB**.
 
 ## Download
 

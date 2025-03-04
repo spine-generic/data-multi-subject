@@ -1,16 +1,24 @@
 {
-	"Manufacturer": "Siemens",
-	"ManufacturersModelName": "Prisma",
-	"ProcedureStepDescription": "spine_Montreal",
-	"ProtocolName": "GRE-T1w",
-	"SequenceName": "_fl3d1",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
-	"AcquisitionDateTime": "2019-01-15T14:39:25.937500",
-	"MagneticFieldStrength": 3,
-	"FlipAngle": 15,
-	"EchoTime": 0.00313,
-	"RepetitionTime": 0.015,
-	"PhaseEncodingDirection": "j-",
-	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20170207"
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "ProcedureStepDescription": "spine_Montreal",
+    "ProtocolName": "GRE-T1w",
+    "SequenceName": "_fl3d1",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "DIS2D"
+    ],
+    "AcquisitionDateTime": "2019-01-15T14:39:25.937500",
+    "MagneticFieldStrength": 3,
+    "FlipAngle": 15,
+    "EchoTime": 0.00313,
+    "RepetitionTime": 0.015,
+    "PhaseEncodingDirection": "j-",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20170207",
+    "SpatialReference": {
+        "Reorientation": "RPI"
+    }
 }

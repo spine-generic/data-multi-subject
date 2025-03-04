@@ -48,5 +48,9 @@
     "InPlanePhaseEncodingDirectionDICOM": "ROW",
     "ConversionSoftware": "dcm2niix",
     "ConversionSoftwareVersion": "v1.0.20181125  Clang10.0.0",
-    "AcquisitionDuration": 288.0
+    "AcquisitionDuration": 288.0,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
 }
