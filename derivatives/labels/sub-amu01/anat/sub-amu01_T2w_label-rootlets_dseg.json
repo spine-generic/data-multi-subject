@@ -1,0 +1,11 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "Manual",
+            "Author": "Jan Valosek, Theo Mathieu",
+            "Description": "Manually corrected ground truth labels of dorsal rootlets C2-C8 used to train the model M5; details: https://github.com/ivadomed/model-spinal-rootlets/pull/23#issuecomment-1836305457",
+            "Date": "2023-12-01"
+        }
+    ]
+}
