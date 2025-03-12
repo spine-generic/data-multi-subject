@@ -1,5 +1,6 @@
 {
     "SpatialReference": "orig",
+    "SpatialReference": "orig",
     "GeneratedBy": [
         {
             "Name": "sct_deepseg_sc",
