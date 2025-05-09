@@ -78,7 +78,7 @@ jobs:
     - name: Checking BIDS compliance
       if: always()
       run: |
-        deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR --allow-read=. jsr:@bids/validator . | tee bids.txt
+        deno run --no-prompt --allow-env --allow-read=. jsr:@bids/validator . | tee bids.txt
         printf "\nShort summary:\n\n"
         # FIXME: This should be replaced with bids-validator settings: A) throw error on warning or B) warning ignores
         ! grep "\[WARNING\]\|\[ERROR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
