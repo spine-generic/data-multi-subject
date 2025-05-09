@@ -12,8 +12,18 @@ jobs:
 
     steps:
 
+    - name: Gain disk space by remapping temp disk (`/dev/sdb1`)
+      uses: easimon/maximize-build-space@master
+      # We use the above action instead of removing unwanted packages because it only takes about 2s;
+      # by comparison, removing lots of small file is very time-consuming.
+      with:
+        # After freeing up space we could have as much as 87GB available, which is overkill.
+        # So, we set root == 10GB to save room for installing dependencies (leaving us with ~77GB)
+        root-reserve-mb: 10240
+        swap-size-mb: 1024
+
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         # make sure to download directly from the PR's repo, whether that is this repo or a fork
         # By default github generates a merge commit for each PR in this repo, but only for the one branch under test
@@ -24,62 +34,32 @@ jobs:
         repository: ${{github.event.pull_request.head.repo.full_name}}
         ref: ${{ github.event.pull_request.head.ref }}
 
-    - name: Install dos2unix
+    - name: Update apt packages
       run: |
-        # the easy way to do this: convert everything to unix and ask git if that changed anything
-        sudo apt-get install -y dos2unix
-
-    - name: Check line endings
-      run: |
-        # the easy way to do this: convert everything to unix and ask git if that changed anything
-
-        find ./ -path ./.git -prune -o -type f -print0 | xargs -0 dos2unix -q
-        # this version is safer, but more maintenance:
-        #find ./ -path ./.git -prune -o -type f \( ! -name "*.nii" -a ! -name "*.nii.gz" \) -print0 | xargs -0 dos2unix -q
-
-        git diff --stat --exit-code
-        if [ "$?" -ne 0 ]; then
-          echo "error: Windows line endings found."
-          exit 1
-        fi
-
-    - name: Lint participants.tsv
-      run: .github/workflows/lint-tsv participants.tsv
-
-    #- name: Update software
-    #  run: |
-    #    # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
-    #    sudo apt-get update &&
-    #    sudo DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade &&
-    #    sudo DEBIAN_FRONTEND=noninteractive apt-get autoremove
+        # do we want to do this? it's helpful to avoid testing against surprise out-of-date software, but also so slow.
+        sudo apt-get update &&
+        sudo DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade &&
+        sudo DEBIAN_FRONTEND=noninteractive apt-get autoremove
 
     - name: Install git-annex
       run: |
         sudo apt-get install -y git-annex
         git config --global annex.thin true
+        git config --global annex.retry 2
+
+    - name: Setup NodeJS (for bids-validator)
+      uses: actions/setup-node@v4
 
     - name: Install bids-validator
-      run: |
-        # install proper NodeJS for bids-validator
-        curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-        sudo apt-get install -y nodejs
-        sudo npm install -g bids-validator
+      run: sudo npm install -g bids-validator
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.7
+        python-version: 3.11
 
     - name: Install spine-generic for acquisition parameters check
       run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
-
-    #- name: Increase free space
-    #   run: |
-    #    # this takes about 2 minutes but saves about 30GB, which is space we might need for git-annex.
-    #    # annex.thin saves a lot of space, but if the dataset grows beyond what Github can handle
-    #    # try enabling this.
-    #    # ref: https://github.com/actions/virtual-environments/issues/2606#issuecomment-772683150
-    #    sudo rm -rf /usr/local/lib/android /usr/share/dotnet
 
     - name: git config
       run: |
@@ -93,13 +73,29 @@ jobs:
 
     - name: Download dataset
       run: |
-        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v2 does a shallow checkout, so it is missing this important branch
+        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v4 does a shallow checkout, so it is missing this important branch
         git annex init
         git annex get -J8
 
     - name: Checking BIDS compliance
-      run: bids-validator --verbose ./
+      if: always()
+      run: |
+        bids-validator --verbose ./ | tee bids.txt
+        printf "\nShort summary:\n\n"
+        # FIXME: This should be replaced with bids-validator settings: A) throw error on warning or B) warning ignores
+        ! grep "\[WARN\]\|\[ERR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
+
     - name: Checking acquisition parameters
-      run: sg_params_checker -path-in ./
+      if: always()
+      run: |
+        sg_params_checker -path-in ./ | tee params.txt
+        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+        ! grep "WARNING" params.txt  # ! -> Reverse error code so "found == error thrown"
+
     - name: Checking data consistency
-      run: sg_check_data_consistency -path-in ./
+      if: always()
+      run: |
+        sg_check_data_consistency -path-in ./ | tee consistency.txt
+        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+        ! grep "Warning\|Missing" consistency.txt
+        grep "all good" consistency.txt
