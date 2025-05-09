@@ -1,0 +1,8 @@
+{
+	"FlipAngle": 90,  
+	"EchoTime": 0.063,  
+	"RepetitionTime": 3.00,  
+	"PhaseEncodingDirection": "j-",
+	"ConversionSoftware": "dcm2nii",
+	"ConversionSoftwareVersion": "4AUGUST2014 64bit BSD License"
+}

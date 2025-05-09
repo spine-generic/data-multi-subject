@@ -1,0 +1,19 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2021-08-04 12:50:07"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2025-02-19 11:00:15"
+        }
+    ]
+}

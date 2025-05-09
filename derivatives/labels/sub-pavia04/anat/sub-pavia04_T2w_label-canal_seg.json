@@ -1,0 +1,14 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "model-canal-seg",
+            "Version": "https://github.com/ivadomed/model-canal-seg/issues/20"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Abel Salmona",
+            "Date": "2024-11-15"
+        }
+    ]
+}

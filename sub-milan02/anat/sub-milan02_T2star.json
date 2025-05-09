@@ -19,5 +19,9 @@
     "PhaseEncodingDirection": "j-",
     "ConversionSoftware": "dcm2niix",
     "ConversionSoftwareVersion": "v1.0.20170207",
-    "AcquisitionDuration": 285.0
+    "AcquisitionDuration": 285.0,
+    "SpatialReference": {
+        "Reorientation": "RPI",
+        "Other": "root-mean square across 4th dimension (if it exists)"
+    }
 }

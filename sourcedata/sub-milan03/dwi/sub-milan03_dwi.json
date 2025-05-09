@@ -1,0 +1,17 @@
+{
+	"Manufacturer": "Siemens",
+	"ManufacturersModelName": "Prisma",
+	"ProcedureStepDescription": "spine_generic",
+	"ProtocolName": "DWI",
+	"SequenceName": "_ez_b0",
+	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "ND", "MOSA"],
+	"AcquisitionDateTime": "2018-12-20T11:20:56.679688",
+	"MagneticFieldStrength": 3,
+	"FlipAngle": 90,
+	"EchoTime": 0.061,
+	"RepetitionTime": 0.62,
+	"EffectiveEchoSpacing": 0.000960006,
+	"PhaseEncodingDirection": "j-",
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20170207"
+}

@@ -1,0 +1,23 @@
+{
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "ProcedureStepDescription": "spine_Montreal",
+    "ProtocolName": "GRE-ME",
+    "SequenceName": "_me2d1r3",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "NORM",
+        "DIS2D"
+    ],
+    "AcquisitionDateTime": "2019-01-09T10:36:47.968750",
+    "MagneticFieldStrength": 3,
+    "FlipAngle": 30,
+    "EchoTime": 0.014,
+    "RepetitionTime": 0.6,
+    "PhaseEncodingDirection": "j-",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20170207",
+    "AcquisitionDuration": 285.0
+}

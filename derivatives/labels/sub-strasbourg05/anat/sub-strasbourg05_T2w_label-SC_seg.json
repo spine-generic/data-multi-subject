@@ -1,0 +1,11 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "spinalcordtoolbox: sct_deepseg -i sub-strasbourg05_T2w.nii.gz -task seg_sc_contrast_agnostic -largest 1 -qc qc -qc-subject sub-strasbourg05 -o sub-strasbourg05_T2w_label-SC_seg.nii.gz",
+            "Version": "git-master-310834f50bfc9e3f9c68d696ada10a2223a882de*",
+            "CodeURL": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/blob/310834f50bfc9e3f9c68d696ada10a2223a882de/spinalcordtoolbox/scripts/sct_deepseg.py",
+            "ModelURL": "https://github.com/sct-pipeline/contrast-agnostic-softseg-spinalcord/releases/download/v3.1/model_contrast_agnostic_20250123.zip"
+        }
+    ]
+}

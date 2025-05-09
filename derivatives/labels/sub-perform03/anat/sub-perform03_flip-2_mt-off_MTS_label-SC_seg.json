@@ -1,0 +1,14 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "sct_deepseg_sc",
+            "Version": "SCT v6.2"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Yassine El Bouchaibi",
+            "Date": "2021-06-30 23:01:58"
+        }
+    ]
+}
