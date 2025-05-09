@@ -48,7 +48,7 @@ jobs:
         git config --global annex.retry 2
 
     - name: Setup Deno (for bids-validator)
-      uses: denoland/setup-deno@2
+      uses: denoland/setup-deno@v2
 
     - name: Set up Python
       uses: actions/setup-python@v5
