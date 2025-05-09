@@ -47,19 +47,17 @@ jobs:
         git config --global annex.thin true
         git config --global annex.retry 2
 
-    - name: Setup NodeJS (for bids-validator)
-      uses: actions/setup-node@v4
-
-    - name: Install bids-validator
-      run: sudo npm install -g bids-validator
+    - name: Setup Deno (for bids-validator)
+      uses: denoland/setup-deno@2
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: 3.11
 
-    - name: Install spine-generic for acquisition parameters check
-      run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
+# currently failing to install because of the python version
+#    - name: Install spine-generic for acquisition parameters check
+#      run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
 
     - name: git config
       run: |
@@ -80,22 +78,22 @@ jobs:
     - name: Checking BIDS compliance
       if: always()
       run: |
-        bids-validator --verbose ./ | tee bids.txt
+        deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR --allow-read=. jsr:@bids/validator . | tee bids.txt
         printf "\nShort summary:\n\n"
         # FIXME: This should be replaced with bids-validator settings: A) throw error on warning or B) warning ignores
-        ! grep "\[WARN\]\|\[ERR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
+        ! grep "\[WARNING\]\|\[ERROR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
 
-    - name: Checking acquisition parameters
-      if: always()
-      run: |
-        sg_params_checker -path-in ./ | tee params.txt
-        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
-        ! grep "WARNING" params.txt  # ! -> Reverse error code so "found == error thrown"
-
-    - name: Checking data consistency
-      if: always()
-      run: |
-        sg_check_data_consistency -path-in ./ | tee consistency.txt
-        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
-        ! grep "Warning\|Missing" consistency.txt
-        grep "all good" consistency.txt
+#    - name: Checking acquisition parameters
+#      if: always()
+#      run: |
+#        sg_params_checker -path-in ./ | tee params.txt
+#        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+#        ! grep "WARNING" params.txt  # ! -> Reverse error code so "found == error thrown"
+#
+#    - name: Checking data consistency
+#      if: always()
+#      run: |
+#        sg_check_data_consistency -path-in ./ | tee consistency.txt
+#        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
+#        ! grep "Warning\|Missing" consistency.txt
+#        grep "all good" consistency.txt

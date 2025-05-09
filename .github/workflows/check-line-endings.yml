@@ -13,7 +13,7 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         # make sure to download directly from the PR's repo, whether that is this repo or a fork
         # By default github generates a merge commit for each PR in this repo, but only for the one branch under test
