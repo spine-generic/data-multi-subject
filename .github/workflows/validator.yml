@@ -36,9 +36,21 @@ jobs:
 
     - name: Install git-annex
       run: |
-        sudo apt-get install -y git-annex
+        sudo apt-get update
+        sudo apt-get --yes install git-annex
+        # the user name and email is needed by git-annex to write to
+        # the local git-annex branch
+        git config --global user.name "gh-actions"
+        git config --global user.email "gh-actions"
+        # save space by using hard links to annexed files
         git config --global annex.thin true
+        # retry for transient failures when downloading annexed file contents
         git config --global annex.retry 2
+
+    - name: Download dataset
+      run: |
+        git fetch --depth=1 origin git-annex:git-annex
+        git annex get -J8
 
     - name: Setup Deno (for bids-validator)
       uses: denoland/setup-deno@v2
@@ -51,22 +63,6 @@ jobs:
 # currently failing to install because of the python version
 #    - name: Install spine-generic for acquisition parameters check
 #      run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
-
-    - name: git config
-      run: |
-        # this is needed by git-annex so that it can write to the local git-annex branch
-        # the tracking information about the local copy
-        git config --global user.name "gh-actions"
-        git config --global user.email "gh-actions"
-        # but actually, disable those writes. We don't need them because we're throwing away this copy immediately.
-        # this might make the previous two lines unnecessary, but it's safer just to leave them both in
-        git config annex.alwayscommit false
-
-    - name: Download dataset
-      run: |
-        git fetch --depth=1 origin git-annex:git-annex # actions/checkout@v4 does a shallow checkout, so it is missing this important branch
-        git annex init
-        git annex get -J8
 
     - name: Checking BIDS compliance
       if: always()
