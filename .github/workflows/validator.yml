@@ -52,17 +52,17 @@ jobs:
         git fetch --depth=1 origin git-annex:git-annex
         git annex get -J8
 
-    - name: Setup Deno (for bids-validator)
+    - name: Install Deno
       uses: denoland/setup-deno@v2
 
-    - name: Set up Python
+    - name: Install Python 3.13
       uses: actions/setup-python@v5
       with:
-        python-version: 3.11
+        python-version: 3.13
 
-# currently failing to install because of the python version
-#    - name: Install spine-generic for acquisition parameters check
-#      run: pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@master
+    - name: Install spine-generic
+      run: |
+        pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@v2.9
 
     - name: Checking BIDS compliance
       if: always()
