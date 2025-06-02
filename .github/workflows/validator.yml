@@ -70,16 +70,12 @@ jobs:
       # dependencies access any credentials that github CI exposes in environment variables, but at
       # least we're not giving it any network access, so exfiltrating them would require more effort.
       run: |
-        deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR,IGNORE_TEST_WIN32 --allow-read=. jsr:@bids/validator .
+        deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR,IGNORE_TEST_WIN32 --allow-read=. jsr:@bids/validator . || echo '::warning title=bids-validator::Errors found by bids-validator'
 
     - name: Run acquisition parameter validator
-      # we ignore the exit code because we expect warnings, but we still want
-      # to see them
       run: |
-        sg_params_checker -path-in . || true
+        sg_params_checker -path-in . || echo '::warning title=bids-validator::Errors found by sg_params_checker'
 
     - name: Run data consistency validator
-      # we ignore the exit code because we expect warnings, but we still want
-      # to see them
       run: |
-        sg_check_data_consistency -path-in . || true
+        sg_check_data_consistency -path-in . || echo '::warning title=bids-validator::Errors found by sg_check_data_consistency'
