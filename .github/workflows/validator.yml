@@ -72,17 +72,14 @@ jobs:
       run: |
         deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR,IGNORE_TEST_WIN32 --allow-read=. jsr:@bids/validator .
 
-#    - name: Checking acquisition parameters
-#      if: always()
-#      run: |
-#        sg_params_checker -path-in ./ | tee params.txt
-#        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
-#        ! grep "WARNING" params.txt  # ! -> Reverse error code so "found == error thrown"
-#
-#    - name: Checking data consistency
-#      if: always()
-#      run: |
-#        sg_check_data_consistency -path-in ./ | tee consistency.txt
-#        # FIXME: Checking the output like this should be replaced with SG throwing actual errors
-#        ! grep "Warning\|Missing" consistency.txt
-#        grep "all good" consistency.txt
+    - name: Run acquisition parameter validator
+      # we ignore the exit code because we expect warnings, but we still want
+      # to see them
+      run: |
+        sg_params_checker -path-in . || true
+
+    - name: Run data consistency validator
+      # we ignore the exit code because we expect warnings, but we still want
+      # to see them
+      run: |
+        sg_check_data_consistency -path-in . || true
