@@ -64,13 +64,13 @@ jobs:
       run: |
         pip install spinegeneric@git+https://github.com/spine-generic/spine-generic.git@v2.9
 
-    - name: Checking BIDS compliance
-      if: always()
+    - name: Run bids-validator
+      # If the explicit whitelist of allowed environment variables gets too annoying to update,
+      # we can loosen it to just a blanket `--allow-env`. This will let bids-validator and all of its
+      # dependencies access any credentials that github CI exposes in environment variables, but at
+      # least we're not giving it any network access, so exfiltrating them would require more effort.
       run: |
-        deno run --no-prompt --allow-env --allow-read=. jsr:@bids/validator . | tee bids.txt
-        printf "\nShort summary:\n\n"
-        # FIXME: This should be replaced with bids-validator settings: A) throw error on warning or B) warning ignores
-        ! grep "\[WARNING\]\|\[ERROR\]" bids.txt  # ! -> Reverse error code so "found == error thrown"
+        deno run --no-prompt --allow-env=BIDS_SCHEMA,FORCE_COLOR,IGNORE_TEST_WIN32 --allow-read=. jsr:@bids/validator .
 
 #    - name: Checking acquisition parameters
 #      if: always()
