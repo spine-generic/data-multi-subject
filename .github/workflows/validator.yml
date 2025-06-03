@@ -1,5 +1,5 @@
-
 name: Dataset Validator
+
 on:
   push:
     branches: [ master ]
@@ -9,7 +9,6 @@ on:
 jobs:
   Validate:
     runs-on: ubuntu-latest
-
     steps:
 
     - name: Gain disk space by remapping temp disk (`/dev/sdb1`)
@@ -32,7 +31,7 @@ jobs:
         #
         # *if* this is not a pull request, this will fall back to its default behaviour.
         repository: ${{github.event.pull_request.head.repo.full_name}}
-        ref: ${{ github.event.pull_request.head.ref }}
+        ref: ${{github.event.pull_request.head.ref}}
 
     - name: Install git-annex
       run: |
@@ -50,7 +49,7 @@ jobs:
     - name: Download dataset
       run: |
         git fetch --depth=1 origin git-annex:git-annex
-        git annex get -J8
+        git annex get --jobs 8
 
     - name: Install Deno
       uses: denoland/setup-deno@v2
