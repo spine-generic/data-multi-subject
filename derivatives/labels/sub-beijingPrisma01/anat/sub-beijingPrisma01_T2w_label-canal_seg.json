@@ -1,0 +1,11 @@
+{
+    "GeneratedBy": [
+        {
+            "Name": "spinalcordtoolbox: sct_deepseg sc_canal_t2 -i sub-beijingPrisma01_T2w.nii.gz -o sub-beijingPrisma01_T2w_label-canal_seg.nii.gz -qc qc_canal",
+            "Version": "git-master-20d4aa831df5b85b61f8c21becc66c32d5845b03",
+            "CodeURL": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/blob/20d4aa831df5b85b61f8c21becc66c32d5845b03/spinalcordtoolbox/scripts/sct_deepseg.py",
+            "ModelURL": "https://github.com/ivadomed/model-canal-seg/releases/download/r20241126/model-canal-seg_r20241126.zip"
+        }
+    ],
+    "SpatialReference": "orig"
+}
