@@ -1,0 +1,22 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "totalspineseg",
+            "Link": "https://github.com/neuropoly/totalspineseg",
+            "Version": "r20250224",
+            "Date": "2025-06-09 11:30:24"
+        },
+        {
+            "Name": "spineps",
+            "Link": "https://github.com/Hendrik-code/spineps",
+            "Version": "v1.3.1",
+            "Date": "2025-06-09 11:30:24"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Nathan Molinier",
+            "Date": "2025-06-09 11:30:24"
+        }
+    ]
+}
