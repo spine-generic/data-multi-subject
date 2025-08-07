@@ -1,0 +1,26 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "spinalcordtoolbox: sct_deepseg sc_canal_t2 -i sub-brnoUhb07_T2w.nii.gz -o sub-brnoUhb07_T2w_label-canal_seg.nii.gz -qc qc -qc-subject sub-brnoUhb07",
+            "Version": "git-HEAD-6bf2b392941c2fc965956e9fb7c18bf70da2fada",
+            "CodeURL": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/blob/6bf2b392941c2fc965956e9fb7c18bf70da2fada/spinalcordtoolbox/scripts/sct_deepseg.py",
+            "ModelURL": "https://github.com/ivadomed/model-canal-seg/releases/download/r20241126/model-canal-seg_r20241126.zip"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2025-07-16 14:34:53"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2025-08-06 13:56:37"
+        },
+        {
+            "Name": "Manual",
+            "Author": "Sandrine Bedard",
+            "Date": "2025-08-06 14:01:50"
+        }
+    ]
+}
