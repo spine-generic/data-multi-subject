@@ -4,4 +4,4 @@
 8633c5a1-4415-4437-8f91-5fef69695c8a autoenable=true sameas-name=computecanada-public sameas-uuid=afd7e696-7b3a-4c7e-9dd1-4dfa87cdbd31 type=httpalso url=https://object-arbutus.cloud.computecanada.ca/def-jcohen-data-multi-subject timestamp=1749580641s
 8ffcc392-0777-44d4-bec4-42a7aeee018b name=do-not-use-2 timestamp=1672953143.199932s
 9af40aaa-e68c-44a6-9e75-de323b371de4 name=do-not-use-3 timestamp=1672952808.532591s
-afd7e696-7b3a-4c7e-9dd1-4dfa87cdbd31 autoenable=false bucket=def-jcohen-data-multi-subject datacenter=CA encryption=none host=object-arbutus.cloud.computecanada.ca name=computecanada-private port=443 requeststyle=path storageclass=STANDARD type=S3 timestamp=1754507367.4047s
+afd7e696-7b3a-4c7e-9dd1-4dfa87cdbd31 autoenable=false bucket=def-jcohen-data-multi-subject datacenter=CA encryption=none host=object-arbutus.cloud.computecanada.ca name=computecanada-private port=443 requeststyle=path storageclass=STANDARD type=S3 timestamp=1754924740.216864s
