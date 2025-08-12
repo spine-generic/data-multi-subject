@@ -1,14 +1,19 @@
 {
-    "SpatialReference": "orig",
-    "GeneratedBy": [
-        {
-            "Name": "model-canal-seg",
-            "Version": "https://github.com/ivadomed/model-canal-seg/issues/20"
-        },
-        {
-            "Name": "Manual",
-            "Author": "Abel Salmona",
-            "Date": "2024-11-15"
-        }
-    ]
+  "SpatialReference": "orig",
+  "GeneratedBy": [
+    {
+      "Name": "model-canal-seg",
+      "Version": "https://github.com/ivadomed/model-canal-seg/issues/20"
+    },
+    {
+      "Name": "Manual",
+      "Author": "Abel Salmona",
+      "Date": "2024-11-15"
+    },
+    {
+      "Name": "Manual",
+      "Author": "Sandrine Bedard",
+      "Date": "2025-08-11 11:48:08"
+    }
+  ]
 }
