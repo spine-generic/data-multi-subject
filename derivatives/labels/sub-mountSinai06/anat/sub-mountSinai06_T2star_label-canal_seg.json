@@ -1,0 +1,11 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "TotalSpineSeg",
+            "Description": "Segmentation produced using an active learning strategy.",
+            "Link": "https://github.com/neuropoly/totalspineseg/blob/bb90ac3dca5f856f4cd71c65467efa023be444cf/scripts/active_learning/README.md",
+            "Date": "2025-09-11 15:02:29"
+        }
+    ]
+}

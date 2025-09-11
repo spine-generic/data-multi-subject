@@ -2,21 +2,10 @@
     "SpatialReference": "orig",
     "GeneratedBy": [
         {
-            "Name": "totalspineseg",
-            "Link": "https://github.com/neuropoly/totalspineseg",
-            "Version": "r20250224",
-            "Date": "2025-06-09 11:15:35"
-        },
-        {
-            "Name": "spineps",
-            "Link": "https://github.com/Hendrik-code/spineps",
-            "Version": "v1.3.1",
-            "Date": "2025-06-09 11:15:35"
-        },
-        {
-            "Name": "Manual",
-            "Author": "Nathan Molinier",
-            "Date": "2025-06-09 11:15:35"
+            "Name": "TotalSpineSeg",
+            "Description": "Segmentation produced using an active learning strategy.",
+            "Link": "https://github.com/neuropoly/totalspineseg/blob/bb90ac3dca5f856f4cd71c65467efa023be444cf/scripts/active_learning/README.md",
+            "Date": "2025-09-11 15:13:38"
         }
     ]
 }
