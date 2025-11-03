@@ -27,7 +27,6 @@ We are using a tool to manage large datasets called `git-annex`. To download thi
 > # the answer should show something like: git-annex version: 8.20200330
 > ```
 
-
 Then this will download the dataset:
 
 ```
@@ -50,6 +49,12 @@ git pull && git annex get .
 ```
 
 See more at [the official documentation](https://git-annex.branchable.com/walkthrough/) and take note of our [in-lab troubleshooting](https://github.com/neuropoly/data-management/blob/master/git-annex.md).
+
+Note that we changed our hosting provider for this data in 2025 (see [#186](https://github.com/spine-generic/data-multi-subject/issues/186)). If you have older clones of this repository, you may need to manually enable the new host:
+
+```
+git annex enableremote computecanada-public
+```
 
 ## Working from a forked repository
 
