@@ -1,0 +1,12 @@
+{
+    "GeneratedBy": [
+        {
+            "Name": "spinalcordtoolbox: sct_deepseg spinalcord -i sub-ucdavis04_rec-average_dwi.nii.gz -o sub-ucdavis04_rec-average_dwi_label-SC_seg.nii.gz -qc qc -qc-subject sub-ucdavis04",
+            "Version": "git-jv-test-josh-fix-d5393bb8ef23063866eb8d4f725cb5e0cda1e4df",
+            "CodeURL": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/blob/d5393bb8ef23063866eb8d4f725cb5e0cda1e4df/spinalcordtoolbox/scripts/sct_deepseg.py",
+            "ModelURL": [
+                "https://github.com/sct-pipeline/contrast-agnostic-softseg-spinalcord/releases/download/v4.0/model_contrast_agnostic_20260628.zip"
+            ]
+        }
+    ]
+}
