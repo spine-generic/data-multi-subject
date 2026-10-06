@@ -45,16 +45,19 @@ dti_fa:
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
+- sub-ucdavis07  # signal dropout at the top part; details: https://github.com/spine-generic/spine-generic/issues/291#issue-5409445931
 dti_md:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
+- sub-ucdavis07  # signal dropout at the top part; details: https://github.com/spine-generic/spine-generic/issues/291#issue-5409445931
 dti_rd:
 - sub-beijingPrisma03  # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
 - sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-oxfordFmrib01  # registration issue (segmentation OK)
+- sub-ucdavis07  # signal dropout at the top part; details: https://github.com/spine-generic/spine-generic/issues/291#issue-5409445931
 brain_t1:
 - sub-balgrist04  # motion artifacts
 - sub-barcelona01  # wrong FOV placement
