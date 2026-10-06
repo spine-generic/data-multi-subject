@@ -1,0 +1,16 @@
+{
+    "SpatialReference": "orig",
+    "GeneratedBy": [
+        {
+            "Name": "RootletSeg (SCT v7.0+)",
+            "Description": "RootletSeg model prediction (r20250318): https://github.com/ivadomed/model-spinal-rootlets/releases/tag/r20250318",
+            "Date": "2025-05-08"
+        },
+        {
+            "Name": "Visual check",
+            "Author": "Katerina Krejci",
+            "Description": "Visually checked labels of C2-T1 dorsal and ventral rootlets",
+            "Date": "2025-05-08"
+        }
+    ]
+}
