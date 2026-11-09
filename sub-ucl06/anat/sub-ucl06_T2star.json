@@ -1,6 +1,10 @@
 {
     "FlipAngle": 30,
-    "EchoTime": "0.0022,0.0085,0.0148",
+    "EchoTime": [
+        0.0022,
+        0.0085,
+        0.0148
+    ],
     "RepetitionTime": 0.625,
     "PhaseEncodingDirection": "i-,j-",
     "ConversionSoftware": "dcm2nii",
